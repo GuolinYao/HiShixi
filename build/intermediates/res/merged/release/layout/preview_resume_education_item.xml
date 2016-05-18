@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout android:id="@+id/layout_education"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView android:id="@+id/text_education_schoolname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+           android:textColor="#00acf0" 
+           android:gravity="center_vertical"
+           android:text="上海财经大学"/>
+        <TextView android:id="@+id/text_education_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+           android:textColor="@color/form_value_color" 
+           android:gravity="center_vertical"
+           android:layout_marginLeft="30dp"
+           android:layout_marginStart="30dp"
+           android:text="2015.06-2015.09"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/layout_diploma"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_education" 
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+    <TextView android:id="@+id/text_diploma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+           android:textColor="@color/form_value_color"
+           android:gravity="center_vertical"
+           android:text="本科"/>
+    
+    <View 
+        android:layout_width="1px"
+        android:layout_height="10dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/form_value_color"
+        />
+    <TextView android:id="@+id/text_majorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+         android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+           android:textColor="@color/form_value_color"
+           android:gravity="center_vertical"
+           android:text="对外汉语"/>
+    </LinearLayout>
+     <View android:id="@+id/view_dash_line"
+         android:background="@drawable/dashed_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/layout_diploma"/>
+</RelativeLayout>

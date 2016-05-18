@@ -1,0 +1,758 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/company_listview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/company_listview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/dialog_custom_base.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/dialog_custom_base.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/add_image_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/add_image_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/integrity_dialog_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/integrity_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/item_select_graduateyear.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/item_select_graduateyear.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_shareboard_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/company_introduce_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/company_introduce_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_talent_invite_rule_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_talent_invite_rule_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/add_intership_expericence_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/add_intership_expericence_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/item_recommend_listview.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/item_recommend_listview.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/preview_resume_education_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/preview_resume_education_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/post_invitation_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/post_invitation_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_preview_talent_bank_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_preview_talent_bank_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/dialog_notitle_base.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/dialog_notitle_base.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_simple_spinner_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_image_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_image_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/add_educationbg_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/add_educationbg_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/create_resume_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/create_resume_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/search_initview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/search_initview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/edit_resume_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/edit_resume_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_reply_list_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_reply_list_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_bind_select_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/reply_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/reply_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/pull_to_refresh_header.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/basicinfo_one_layou.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/basicinfo_one_layou.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_guide.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tb_munion_aditem.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tb_munion_aditem.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_detail_scrollview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_detail_scrollview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_mine_supernatant_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_mine_supernatant_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_hunter_mime_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_hunter_mime_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/item_image_grid.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/item_image_grid.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base_title.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base_title.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/enterprise_job_vacancy_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/enterprise_job_vacancy_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/comment_detail_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/comment_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/search_position_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/search_position_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/fragment_mine_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/fragment_mine_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/look_up_allcomment_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/look_up_allcomment_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/login_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/login_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/setting_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/setting_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_detail_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_detail_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/share_dialog2_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/share_dialog2_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/login_dialog_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/login_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/canintership_stag_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/canintership_stag_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_post_share.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_recommend_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_recommend_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/nomal_listview_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/nomal_listview_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/politics_status_sex_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/politics_status_sex_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/find_pwd_by_email_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/find_pwd_by_email_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/filter_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/filter_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/loadmore_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/loadmore_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/basicinfo_three_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/basicinfo_three_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/webview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/webview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_pullrefresh_swipelistview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_pullrefresh_swipelistview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/collect_position_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/collect_position_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/splash_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/splash_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_collect__new_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_collect__new_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_detail_top_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_detail_top_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/resume_none_data_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/resume_none_data_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_select_picture.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_select_picture.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/select_address_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/select_address_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/opinion_feedback_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/opinion_feedback_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/head_hunter_mime.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/head_hunter_mime.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/home_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/home_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_failed_load_page.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_invitation_list_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_invitation_list_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/camera.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/camera.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/header_hunt_urgency_mission.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/header_hunt_urgency_mission.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/share_position_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/share_position_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/topic_introduce_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/topic_introduce_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_bak_at_list.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_collected_resume_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_collected_resume_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/company_detail_layout2.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/company_detail_layout2.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/company_detail_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/company_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_previewresume_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_previewresume_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_list_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_list_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/dear_hr_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/dear_hr_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_bak_platform_item_simple.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/selected_city_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/selected_city_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base_nonedata.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base_nonedata.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/viewflow_image_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/viewflow_image_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/list_dir_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/list_dir_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/home_item_topic_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/home_item_topic_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/banner_image_link_detail.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/banner_image_link_detail.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_common_download_notification.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_common_download_notification.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_position_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_position_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/basicinfo_editext_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/basicinfo_editext_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/add_certificate_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/add_certificate_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_home_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_home_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/browse_hietory_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/browse_hietory_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/single_touch_view_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/single_touch_view_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/basicinfo_two_layou.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/basicinfo_two_layou.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_select_graduateyear_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_select_graduateyear_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog_button.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/fragment_base_main.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/fragment_base_main.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/forget_password_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/forget_password_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_content_frame_with_title_header.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_content_frame_with_title_header.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/header_hunt_mission.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/header_hunt_mission.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_header_bar_title.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_header_bar_title.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/comment_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/comment_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/resume_nomal_flow_addbtn_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/resume_nomal_flow_addbtn_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/resume_dynamic_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/resume_dynamic_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/comment_detail_content_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/comment_detail_content_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/share_dialog_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/share_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_talent_edit_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_talent_edit_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_pullrefresh_listview.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_pullrefresh_listview.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base_nonet.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base_nonet.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/post_comment_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/post_comment_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_topic_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_topic_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_bak_platform_selector_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/register_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/register_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_imageview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_imageview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_hunt_tool_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_hunt_tool_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/edit_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/edit_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/system_message_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/system_message_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/topic_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/topic_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/preview_resume_school_experience_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/preview_resume_school_experience_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_collect_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_collect_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/libpull_head.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/libpull_head.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/search_history_record_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/search_history_record_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_gallery_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_gallery_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/test_phonenumber_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/test_phonenumber_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_login_exitdata_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_login_exitdata_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/test_emailaccount_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/test_emailaccount_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_titile_bar.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_mine_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_mine_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_home_new_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_home_new_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/resume_nomal_flow_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/resume_nomal_flow_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/action_sheet_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/action_sheet_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_invitation_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_invitation_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_not_login_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_not_login_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/textview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/textview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_hr_source_guide.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_hr_source_guide.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/date_wheel_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/date_wheel_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/edit_profile_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/edit_profile_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/add_extracurricular_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/add_extracurricular_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/nomal_list_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/nomal_list_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_edit_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_edit_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/filter_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/filter_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/select_internship_area_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/select_internship_area_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_full_curtain.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/datepicker_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/datepicker_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/message_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/message_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/home_banner_new_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/home_banner_new_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/dialog_base.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/dialog_base.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/selected_city_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/selected_city_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_hunter_jobs_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_hunter_jobs_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base_toast.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base_toast.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/company_position_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/company_position_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_resume_dynamic_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_resume_dynamic_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_hunt_reward_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_hunt_reward_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/resume_nomal_flow_hr_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/resume_nomal_flow_hr_item_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/personal_info_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/personal_info_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/none_position_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/none_position_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/home_item_new_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/home_item_new_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/item_banner_expand_gridview.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/item_banner_expand_gridview.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/view_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/view_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/head_recommend_listview.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/head_recommend_listview.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/pisition_none_data_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/pisition_none_data_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_resume_collected_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_resume_collected_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/flowlayout_textview_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/flowlayout_textview_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_list_top_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_list_top_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/position_detail_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/position_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/school_office_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/school_office_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/item_collected_resume_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/item_collected_resume_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/update_password_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/update_password_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/activity_base_loading.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/activity_base_loading.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/select_present_address_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/select_present_address_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_home_content_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_home_content_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_actionsheet_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_actionsheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/preview_resume_internshipexperience_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/preview_resume_internshipexperience_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/message_list_top_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/message_list_top_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/base_pullrefresh_scrollview.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/base_pullrefresh_scrollview.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/mine_login_nonedata_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/mine_login_nonedata_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_bak_at_list_item.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/invitation_detail_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/invitation_detail_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/umeng_update_dialog.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/umeng_update_dialog.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/grid_item_picture.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/grid_item_picture.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/tab_position_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/tab_position_layout.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/layout/search_position_item_layout.xml",
+        "source": "/Users/guolinyao/myproject/res/layout/search_position_item_layout.xml"
+    }
+]

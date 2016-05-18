@@ -1,0 +1,694 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_share_transparent_corner.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_down_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_down_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_twitter.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_oauth_check_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_oauth_check_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_left_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_right_bt_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_location_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_at_button.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_dialog_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/wheel_val.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_white_blue.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/official_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/official_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_ok_bg_tap.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_button_left.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_follow_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_bind_bg.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_red.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/dialog_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/dialog_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_qq_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/red_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/red_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/refresh_progress.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/refresh_progress.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_douban_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_common_gradient_orange.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/no_nomal_code_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/no_nomal_code_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_check_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_check_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nomal_down.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nomal_down.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_close_bg_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_fetch_image.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/nomal_image_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/nomal_image_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/grid_view_item_shape.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/grid_view_item_shape.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/stick_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/stick_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_at_selected.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/companey_detail_top_left.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/companey_detail_top_left.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/grid_selector_background.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/grid_selector_background.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_back_bt_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/collect_lefttitle_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/collect_lefttitle_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/banner_indicator_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/banner_indicator_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_cancel_bg_normal.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nonenomal_down.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nonenomal_down.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/progressbar_horizontal_1.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/progressbar_horizontal_1.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/mm_trans.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/mm_trans.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/title_bar_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/title_bar_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/myprogress.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/myprogress.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_cancel_bg_tap.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/dashed_line.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/dashed_line.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_button_right.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/percentage_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/percentage_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_renren_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/no_nomal_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/no_nomal_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_location_ic.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/collect_lefttitle_selector_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/collect_lefttitle_selector_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/myprogress1.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/myprogress1.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_ok_bg_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_homepage_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_homepage_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_nav_bar_bg.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_share_to_button.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/indicator_bg_top.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/company_detail_top_right_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/company_detail_top_right_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/checkbox_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_right_pressed.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_cancel_bg_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_action_back_selected.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/grid_view_item_press_shape.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/grid_view_item_press_shape.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_right_bt.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_oauth_check.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_qzone_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/progressbar_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/progressbar_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_refersh.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/edit_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/edit_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_douban_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_mine_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_mine_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/image_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/image_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_facebook.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_follow_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_right_bt_selected.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/selected_image_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/selected_image_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_wifi_disable.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_action_back_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/toast_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/percentage_full_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/percentage_full_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/bottom_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/bottom_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/priview_top_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/priview_top_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_search_icon.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/indicator_bg_gray.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/indicator_bg_gray.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_sina_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_white.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_tx_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/top_line_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/top_line_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/edit_tab_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/edit_tab_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_renren_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_common_gradient_green.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nonenomal_up.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nonenomal_up.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_location_on.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/pressed_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/pressed_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/red_round.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/red_round.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/search_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/search_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/listview_selector_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/listview_selector_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_wechat.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/send_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/send_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/listview_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/listview_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_login.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_blue.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/deletebtn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/deletebtn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tom_bottom_frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tom_bottom_frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_window_shadow_pad.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_x_button.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_shareboard_item_background.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/progressbar_horizontal_2.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/progressbar_horizontal_2.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/button_enter_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/button_enter_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_wxcircle_gray.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_left_pressed.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tb_munion_item_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tb_munion_item_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/frame_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/frame_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/company_detail_top_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/company_detail_top_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tb_munion_icon.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tb_munion_icon.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_right_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_qq_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_action_back.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_ok_bg_normal.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/nomal_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/nomal_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/bottom_line_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/bottom_line_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_wechat_gray.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_grey.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_sidebar_selected.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_tx_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_shape_solid_black.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nomal_up.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nomal_up.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_select.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_select.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_wxcircle.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_at_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_shape_solid_grey.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_title_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_title_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_cancel_bg_focused.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_default_avatar.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/collect_righttitle_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/collect_righttitle_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_update_button_ok_bg_focused.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_sidebar_normal.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/percentage_left_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/percentage_left_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_position_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_position_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_back_bt.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/rectangle_tags.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/rectangle_tags.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/verification_code_nomal_up.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/verification_code_nomal_up.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/verification_code_btn_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/verification_code_btn_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_common_gradient_red.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_sina_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_grey_blue.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_google.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_google.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/tab_discover_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/tab_discover_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_title_back_bt_selected.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_sidebar_selector.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_login_pressed.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/hui_edit_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/hui_edit_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nonenomal.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nonenomal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/pick_checkbox_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/pick_checkbox_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/collect_title_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/collect_title_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_qzone_off.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/white_round.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/white_round.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_up_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_up_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/percentage_right_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/percentage_right_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/mine_ratingbar.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/mine_ratingbar.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_nomal.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_nomal.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_light_bar_bg.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_login_normal.png",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_follow_check.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/search_edit_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/search_edit_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/umeng_socialize_button_red_blue.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/collect_righttitle_selector_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/collect_righttitle_selector_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/edit_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/edit_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable/action_sheet_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable/action_sheet_bg.xml"
+    }
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+      <!-- 标题 -->
+	<RelativeLayout android:id="@+id/home_item_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="29dp"
+	    android:background="@drawable/edit_frame_bg"
+	    
+	    android:gravity="center_vertical">
+	    <ImageView android:id="@+id/image_titleincon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/app_name"
+	        style="@style/list_marginLeft_style"
+	        android:src="@drawable/remenhuati"/>
+	    <TextView android:id="@+id/text_titlename"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/image_titleincon"
+	        android:layout_toEndOf="@id/image_titleincon"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginStart="5dp"
+	        android:textColor="@color/main_font_color"
+	        android:textSize="13sp"
+	        android:text="热门话题"
+	        />
+	</RelativeLayout>
+    <ImageView android:id="@+id/image_home"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        style="@style/list_marginLeftAndRight_style"
+        android:layout_gravity="center"
+        android:background="@drawable/image_bg"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:padding="1px"/>
+
+</LinearLayout>

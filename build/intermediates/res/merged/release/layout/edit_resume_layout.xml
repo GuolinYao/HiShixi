@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_content_bg_color" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" 
+        android:layout_weight="1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+           android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_resume_basicinfo_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_expect_intern_area_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_expect_intern_area_key"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/expect_intern_area_str" />
+
+                    <TextView
+                        android:id="@+id/tv_expect_intern_area_value"
+                        style="@style/basic_info_value_style"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/tv_expect_intern_area_key"
+                        android:layout_toRightOf="@id/tv_expect_intern_area_key"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/expect_intern_area_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_everyweek_canexpectday_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:layout_below="@id/rl_expect_intern_area_layout"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_everyweek_canexpectday_key"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/everyweek_day_str" />
+
+                    <TextView
+                        android:id="@+id/tv_everyweek_canexpectday_value"
+                        style="@style/basic_info_value_style"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/tv_everyweek_canexpectday_key"
+                        android:layout_toRightOf="@id/tv_everyweek_canexpectday_key"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/everyweek_day_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_expect_daily_wage_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:layout_below="@id/rl_everyweek_canexpectday_layout"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_expect_daily_wage_key"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/expect_daily_wage_str" />
+
+                    <TextView
+                        android:id="@+id/tv_expect_daily_wage_value"
+                        style="@style/basic_info_value_style"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/tv_expect_daily_wage_key"
+                        android:layout_toRightOf="@id/tv_expect_daily_wage_key"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/expect_daily_wage_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_expect_internship_position_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:layout_below="@id/rl_expect_daily_wage_layout"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_expect_internship_position_key"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/expect_intern_position_str" />
+
+                    <TextView
+                        android:id="@+id/tv_expect_internship_position_value"
+                        style="@style/basic_info_value_style"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/tv_expect_internship_position_key"
+                        android:layout_toRightOf="@id/tv_expect_internship_position_key"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/expect_intern_position_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_can_internship_stage_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:layout_below="@+id/rl_expect_internship_position_layout"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_can_internship_stage_key"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/can_internship_stage_str" />
+
+                    <TextView
+                        android:id="@+id/tv_can_internship_stage_value"
+                        style="@style/basic_info_value_style"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@id/tv_can_internship_stage_key"
+                        android:layout_toRightOf="@id/tv_can_internship_stage_key"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/optional_fields"
+                        android:singleLine="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- 教育背景 -->
+
+            <LinearLayout
+                android:id="@+id/fl_educational_background_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_resume_basicinfo_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bottom_line_bg"
+                android:orientation="vertical" />
+            <!-- 实习经历 -->
+
+            <LinearLayout
+                android:id="@+id/fl_internship_experience_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_educational_background_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+            <!-- 课外活动 -->
+
+            <LinearLayout
+                android:id="@+id/fl_extracurricular_activities_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_internship_experience_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+            <!-- 校内职务 -->
+
+            <LinearLayout
+                android:id="@+id/fl_school_office_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_extracurricular_activities_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+            <!-- 证书 -->
+
+            <LinearLayout
+                android:id="@+id/fl_certificate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_school_office_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+            <!-- 荣誉 -->
+
+            <LinearLayout
+                android:id="@+id/fl_honor_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_certificate_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+
+            <!-- HR -->
+
+            <LinearLayout
+                android:id="@+id/fl_hr_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_honor_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_preview_resume"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="bottom"
+        android:background="@color/nomal_btn_color"
+        android:gravity="center"
+        android:onClick="onClick" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/preview_white"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/preview_white"
+            android:text="@string/preview_mine_resume_str"
+            android:textColor="@color/main_bg"
+            android:textSize="@dimen/btn_textsize" />
+    </RelativeLayout>
+
+</LinearLayout>

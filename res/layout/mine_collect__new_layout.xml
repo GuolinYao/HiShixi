@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_content_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bottom_frame_bg" >
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_back"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_marginLeft="@dimen/title_bar_margin"
+            android:layout_marginStart="@dimen/title_bar_margin"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_back" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/collect_title_bg"
+            android:orientation="horizontal"
+            android:padding="1px" >
+
+            <RadioGroup
+                android:id="@+id/mine_collect_rg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_tab_position"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/collect_lefttitle_selector_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/collect_tab_position"
+                    android:textColor="@color/collect_title_color_bg"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_tab_invitation"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/collect_righttitle_selector_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/collect_tab_invitation"
+                    android:textColor="@color/collect_title_color_bg"
+                    android:textSize="13sp" />
+            </RadioGroup>
+
+            <!--
+            <TableRow
+                android:id="@+id/resume_tablerow"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/resume_tablerow_one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2.99"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/text_resume_tablerow_one"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/collect_lefttitle_selector_bg"
+                        android:gravity="center"
+                        android:text="@string/message_all_str"
+                        android:textColor="@color/collect_title_color_bg"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/resume_tablerow_two"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2.99"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/text_resume_tablerow_two"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/collect_righttitle_selector_bg"
+                        android:gravity="center"
+                        android:text="@string/message_notification_interview_str"
+                        android:textColor="@color/collect_title_color_bg"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </TableRow>
+            -->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title_bar_otherbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/title_bar_margin"
+            android:layout_marginRight="@dimen/title_bar_margin"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@color/save_btn_font_bg"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <!-- 主体列表部分 -->
+
+    <FrameLayout
+        android:id="@+id/mine_collect_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_bg"
+        android:visibility="gone" />
+
+    <!-- android:background="@color/main_bg" -->
+    <!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage_resume_dynamic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+    -->
+
+    <FrameLayout
+        android:id="@+id/fl_collect_tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

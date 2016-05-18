@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f1f6"
+    android:orientation="vertical" >
+
+    <!-- 收缩时117dp 展开时245dp -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:paddingBottom="10dp"
+        android:paddingTop="11dp" >
+
+        <TextView
+            android:id="@+id/tv_urgency_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:textColor="#a5a5a5"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_expand"
+            android:layout_width="match_parent"
+            android:layout_height="28.5dp"
+            android:background="@color/translucency_white"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_enter" >
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/arrow_down" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_banner_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_editor_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="12.5dp"
+        android:gravity="center"
+        android:textColor="#000100"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_editor_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#99505050"
+        android:textSize="14sp"/>
+    <!-- 点击进入官方话题详情 -->
+
+    <FrameLayout
+        android:id="@+id/fl_more"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="查看更多"
+            android:textColor="#00acf0"
+            android:textSize="14sp"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.5dp"
+        android:background="@drawable/title">
+
+        <TextView
+            android:id="@+id/tv_recommend_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="推荐标题"
+            android:textColor="#ffffff"
+            android:textSize="24sp"/>
+
+        <ImageView
+            android:id="@+id/iv_pattern"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_recommend_title"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6.5dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/patterns"/>
+    </RelativeLayout>
+
+</LinearLayout>

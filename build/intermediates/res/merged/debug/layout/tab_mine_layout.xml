@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lib.homhomlib.design.SlidingLayout android:id="@+id/slidingLayout"
+                                    xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:background_view="@layout/view_bg"
+                                    app:sliding_mode="top">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_content_bg_color"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_basic_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_resume_percent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="horizontal"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/ll_jianli_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_mine_resume_integrity_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ff6c00"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_mine_resume_integrity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/percent_str"
+                            android:textColor="#ff6c00"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_mine_resume_integrity_des"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/resume_progress_str"
+                            android:textColor="#666666"
+                            android:textSize="15sp"/>
+                    </LinearLayout>
+
+                    <com.shixi.gaodun.view.PercentageView
+                        android:id="@+id/pb_mine_progress"
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_below="@id/ll_jianli_des"
+                        android:layout_marginEnd="17dp"
+                        android:layout_marginRight="17dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/percentage_bg"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="0"
+                    android:background="#e0e0e0"/>
+
+                <TextView
+                    android:id="@+id/tv_mine_preview_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="0"
+                    android:drawablePadding="7dp"
+                    android:drawableTop="@drawable/preview"
+                    android:onClick="onClick"
+                    android:text="@string/preview_resume_str"
+                    android:textColor="#00acf0"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!--
+                 <TextView
+                android:id="@+id/tv_mine_editresume"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:clickable="true"
+                android:drawableEnd="@drawable/more_info_grey"
+                android:drawableLeft="@drawable/myresume"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_info_grey"
+                android:drawableStart="@drawable/myresume"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="@string/edit_mine_resume_str"
+                android:textColor="#1b1b1b"
+                android:textSize="15sp" />
+            -->
+
+            <LinearLayout
+                style="@style/nomal_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical"
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_resume_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:onClick="onClick"
+                    android:padding="1dp">
+
+                    <FrameLayout
+                        android:id="@+id/fl_resume_edit"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/tv_resume_edit_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/myresume"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_resume_edit"
+                        style="@style/nomal_padding_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/fl_resume_edit"
+                        android:layout_toRightOf="@id/fl_resume_edit"
+                        android:background="@drawable/edit_frame_bg"
+                        android:drawableEnd="@drawable/more_info_grey"
+                        android:drawableRight="@drawable/more_info_grey"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/edit_mine_resume_str"
+                        android:textColor="#1b1b1b"
+                        android:textSize="15sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_resume_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:onClick="onClick"
+                    android:padding="1dp">
+
+                    <FrameLayout
+                        android:id="@+id/fl_resume_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/tv_resume_status_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/resumedynamics"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_resume_status"
+                        style="@style/nomal_padding_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/fl_resume_status"
+                        android:layout_toRightOf="@id/fl_resume_status"
+                        android:background="@drawable/edit_frame_bg"
+                        android:drawableEnd="@drawable/more_info_grey"
+                        android:drawableRight="@drawable/more_info_grey"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/resume_status_str"
+                        android:textColor="#1b1b1b"
+                        android:textSize="15sp"/>
+                    <!-- 红点 -->
+                    <!-- android:background="@drawable/hongdian" -->
+
+                    <TextView
+                        android:id="@+id/tv_resume_status_record_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"
+                        android:layout_gravity="top|end"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/red_round"
+                        android:contentDescription="@string/app_name"
+                        android:gravity="center"
+                        android:minWidth="16dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:text="@string/number"
+                        android:textColor="@color/main_bg"
+                        android:textSize="@dimen/bottom_navigation_fontsize"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_browsing_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:onClick="onClick"
+                    android:padding="1dp">
+
+                    <FrameLayout
+                        android:id="@+id/fl_browsing_history"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/tv_browsing_history_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/browserecord"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_browsing_history"
+                        style="@style/nomal_padding_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/fl_browsing_history"
+                        android:layout_toRightOf="@id/fl_browsing_history"
+                        android:drawableEnd="@drawable/more_info_grey"
+                        android:drawableRight="@drawable/more_info_grey"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/mine_browsing_history_str"
+                        android:textColor="#1b1b1b"
+                        android:textSize="15sp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_connect"
+                style="@style/nomal_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:onClick="onClick">
+
+                <FrameLayout
+                    android:id="@+id/fl_connect"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/tv_connect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/wujiaoxing"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_connect_tomore"
+                    style="@style/nomal_padding_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/fl_connect"
+                    android:layout_toRightOf="@id/fl_connect"
+                    android:drawableEnd="@drawable/more_info_grey"
+                    android:drawableRight="@drawable/more_info_grey"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/mine_collet_str"
+                    android:textColor="#1b1b1b"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hr_source"
+                style="@style/nomal_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:onClick="onClick">
+
+                <FrameLayout
+                    android:id="@+id/fl_hr_source"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/iv_hr_source"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/talent_black"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_hr_source"
+                    style="@style/nomal_padding_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/fl_hr_source"
+                    android:layout_toRightOf="@id/fl_hr_source"
+                    android:drawableEnd="@drawable/more_info_grey"
+                    android:drawableRight="@drawable/more_info_grey"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/HR_source_str"
+                    android:textColor="#1b1b1b"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_setting"
+                style="@style/nomal_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:onClick="onClick">
+
+                <FrameLayout
+                    android:id="@+id/fl_setting"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/tv_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/set"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_setting_tomore"
+                    style="@style/nomal_padding_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/fl_setting"
+                    android:layout_toRightOf="@id/fl_setting"
+                    android:drawableEnd="@drawable/more_info_grey"
+                    android:drawableRight="@drawable/more_info_grey"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/mine_setting_str"
+                    android:textColor="#1b1b1b"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hunter"
+                style="@style/nomal_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:onClick="onClick"
+                android:visibility="visible">
+
+                <FrameLayout
+                    android:id="@+id/fl_hunter"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/tv_hunter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/hunt_icon"/>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_hunter_tomore"
+                    style="@style/nomal_padding_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/fl_hunter"
+                    android:layout_toRightOf="@id/fl_hunter"
+                    android:drawableEnd="@drawable/more_info_grey"
+                    android:drawableRight="@drawable/more_info_grey"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/mine_hunter_str"
+                    android:textColor="#1b1b1b"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</lib.homhomlib.design.SlidingLayout>

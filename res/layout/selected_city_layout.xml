@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_selected_area_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_selected_city"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="#f2f1f6"
+            android:gravity="center_vertical"
+            android:paddingEnd="18dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="30dp"
+            android:paddingStart="17dp"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <com.shixi.gaodun.view.FlowLayout
+            android:id="@+id/fl_selected_area_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/tom_bottom_frame_bg" />
+    </LinearLayout>
+
+</FrameLayout>

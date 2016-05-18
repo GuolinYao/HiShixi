@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- android:background="@drawable/dialog_frame_bg" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/dialog_frame_bg"
+        android:gravity="center" >
+
+        <!-- android:background="@drawable/action_sheet_up_bg" -->
+
+        <Button
+            android:id="@+id/btn_select_title"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:minHeight="45dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/title_bar_font_color"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/line_one"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/btn_select_title"
+            android:background="#efefef" />
+
+        <Button
+            android:id="@+id/btn_select_two"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_one"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/action_sheet_down_bg"
+            android:minHeight="45dp"
+            android:padding="1dp"
+            android:textColor="#00acf0"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line_two"
+            android:layout_width="170dp"
+            android:layout_height="1px"
+            android:layout_below="@id/btn_select_two"
+            android:layout_centerHorizontal="true"
+            android:background="#d8d8d8" />
+
+        <Button
+            android:id="@+id/btn_select_three"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_two"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/action_sheet_bg"
+            android:minHeight="45dp"
+            android:padding="1dp"
+            android:textColor="#00acf0"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/line_three"
+            android:layout_width="170dp"
+            android:layout_height="1px"
+            android:layout_below="@id/btn_select_three"
+            android:layout_centerHorizontal="true"
+            android:background="#d8d8d8" />
+
+        <Button
+            android:id="@+id/btn_select_cancel"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_three"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/action_sheet_bg"
+            android:minHeight="45dp"
+            android:padding="1dp"
+            android:textColor="#00acf0"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/btn_select_cancel" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/xiaorentou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/xiaorentou" />
+
+</FrameLayout>

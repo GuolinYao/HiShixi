@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/toast_success_width"
+    android:minHeight="@dimen/toast_success_height"
+    android:background="@drawable/toast_bg"
+    android:alpha="0.9">
+    
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/set_success"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView android:id="@+id/tv_toast_successdec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/main_bg"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal|bottom"/>
+</FrameLayout>

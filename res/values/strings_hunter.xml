@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="resume_collected">已收集</string>
+    <string name="mission_and_reward">猎头须知</string>
+    <string name="hunter_tool">猎头工具</string>
+    <string name="resume_sum">累计</string>
+    <string name="resume_unit">份</string>
+    <string name="resume_collected_str">收到 </string>
+    <string name="resume_unit_str"> 份简历</string>
+    <string name="resume_drop_str"> 次投递</string>
+    <string name="resume_share_str">分享</string>
+    <string name="qr_code_share_str">分享二维码</string>
+    <string name="link_share_str">分享链接</string>
+    <string name="day_str">天</string>
+    <string name="left_day_str">距离结束时间：</string>
+    <string name="company_desc_str">公司介绍</string>
+    <string name="urgency_mission_str">紧急任务</string>
+ 
+</resources>

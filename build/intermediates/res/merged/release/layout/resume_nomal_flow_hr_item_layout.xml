@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_exitdata_hr_flow_layout"
+    style="@style/nomal_padding_left_right"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:layout_below="@id/rl_expect_daily_wage_layout"
+    android:gravity="center_vertical"
+    android:background="@drawable/top_line_bg"
+    >
+
+    <TextView
+        android:id="@+id/tv_flow_hr_data_time"
+        style="@style/basic_info_value_style"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:hint="@string/expect_intern_position_hint"
+        android:singleLine="true" />
+
+</RelativeLayout>

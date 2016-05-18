@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f1f6" >
+
+
+        <EditText
+            android:id="@+id/et_intership_expericence_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="165dp"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:gravity="top|start"
+            android:hint="@string/dear_hr_hint"
+            android:maxLength="300"
+            android:padding="17dp"
+            android:textSize="@dimen/form_textsize" />
+
+        <TextView
+            android:id="@+id/tv_expericence_content_length"
+            style="@style/nomal_margin_right"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_intership_expericence_content"
+            android:gravity="center_vertical"
+            android:textColor="#BCBCBC" />
+
+        <Button
+            android:id="@+id/btn_addorupdate"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/tv_expericence_content_length"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClick"
+            android:text="@string/save_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btn_addorupdate"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/deletebtn_bg"
+            android:onClick="onClick"
+            android:text="@string/delete_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+

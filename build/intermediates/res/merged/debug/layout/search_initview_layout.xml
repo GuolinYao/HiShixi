@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 没有相关职位信息的显示 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="热门搜索"/>
+    
+    <com.shixi.gaodun.view.FlowLayout android:id="@+id/fl_init_hot_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+    <TextView android:id="@+id/tv_init_near_title"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="最近搜索"/>
+   <com.shixi.gaodun.view.FlowLayout android:id="@+id/fl_init_near_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/main_bg"
+         />
+   <TextView android:id="@+id/tv_init_delete_nearrecord"
+       android:layout_width="match_parent"
+       android:layout_height="45dp"
+       android:textSize="16sp"
+       android:background="@color/main_bg"
+       android:textColor="@color/hint_font_color"
+       android:gravity="center"
+       android:text="清空搜索记录"/>
+</LinearLayout>

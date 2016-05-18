@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shixi.gaodun.view.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/company_scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:overScrollMode="never"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_enterpriseinfo_layout"
+            style="@style/list_padding_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_frame_bg"
+            android:paddingBottom="15dp" >
+
+            <ImageView
+                android:id="@+id/iv_commpany_image"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                android:padding="1dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/ll_enterprise_basicinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/iv_commpany_image"
+                android:layout_toRightOf="@id/iv_commpany_image"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_commpany_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/location"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_industry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/info"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/info"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:drawableLeft="@drawable/renshu"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/renshu"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TableRow
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/ll_enterprise_basicinfo"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/company_detail_top_bg"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_company_introduce"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/companey_detail_top_left"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/text_company_introduce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/main_bg"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_company_employment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/text_company_employment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="#656565"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </TableRow>
+
+          
+        </RelativeLayout>
+
+        <!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/company_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation"
+        android:background="@color/main_bg" >
+    </android.support.v4.view.ViewPager>
+        -->
+
+        <FrameLayout
+            android:id="@+id/position_layout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+        <!-- 公司介绍 -->
+
+        <TextView
+            android:id="@+id/text_company_desc"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:paddingTop="12dp"
+            android:textColor="#a5a5a5"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <!-- 公司在招职位 -->
+
+        <com.shixi.gaodun.view.MyListView
+            android:id="@+id/list_position"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="1px"
+            android:overScrollMode="never"
+            android:paddingLeft="17dp"
+            android:scrollbars="none"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</com.shixi.gaodun.view.ObservableScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg_color"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- android:divider="@color/transparent" -->
+
+    <TextView
+        android:id="@+id/tv_all"
+        style="@style/list_paddingleft_style"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/main_content_bg_color"
+        android:gravity="center_vertical"
+        android:paddingBottom="1px"
+        android:paddingTop="1px"
+        android:text="@string/all_str"
+        android:textColor="@color/filter_item_textview_color"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view_line"
+        style="@style/list_marginLeft_style"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#e0e0e0" />
+
+    <ListView
+        android:id="@+id/left_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_content_bg_color"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:scrollbars="@null" >
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/filter_more_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0"
+        android:background="@color/main_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ham" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout 
+    style="@style/list_paddingleft_style"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_line_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp" 
+    android:id="@+id/layout_position_item">
+
+    <ImageView
+        android:id="@+id/image_position_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/image_bg"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        style="@style/list_marginLeft_style">
+
+        <TextView
+            android:id="@+id/text_positionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/main_font_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_commpany_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_positionname"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/form_value_color"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/text_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_commpany_name"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/form_value_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+ <FrameLayout
+        android:id="@+id/layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        style="@style/list_marginRight_style" 
+        android:layout_weight="0"
+       android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/text_post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/hint_font_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:textColor="@color/delete_btn_color"
+            android:textSize="15sp" />
+  </FrameLayout>
+</LinearLayout>
+<!-- 已下线 -->
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_bg"
+        android:alpha="0.7"
+        android:id="@+id/layout_offline"
+        android:visibility="gone">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/offline2x"
+            android:contentDescription="@string/app_name"
+            android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true" 
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"/>
+    </RelativeLayout>
+</FrameLayout>

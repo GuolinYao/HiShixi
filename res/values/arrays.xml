@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date">
+    <item>年</item>
+      <item>月</item>
+      <item>日</item>
+ </string-array>
+ <string-array name="week_day">
+     <item >1天</item>
+     <item >2天</item>
+     <item >3天</item>
+     <item >4天</item>
+     <item >5天</item>
+ </string-array>
+  <string-array name="education">
+     <item >专科</item>
+     <item >本科</item>
+     <item >硕士</item>
+     <item >博士</item>
+ </string-array>
+ 
+  <string-array name="expectdaily_wage">
+     <item >50元以下/天</item>
+     <item >50~99元/天</item>
+     <item >100~200元/天</item>
+     <item >200以上/天</item>
+     <item >不要求薪资</item>
+ </string-array>
+ 
+  <!-- 证书状态 -->
+  <string-array name="certificate_status">
+       <item >通过</item>
+       <item >在读</item>
+  </string-array>
+  
+  
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="preview_resume_title_margin">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="preview_resume_title_left_margin">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="preview_resume_title_right_margin">
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="ContentOverlay" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+       <item name="android:windowBackground">@drawable/splash</item>  
+        <item name="android:windowContentOverlay">@null</item>
+         <item name="android:windowFullscreen">true</item>
+    </style>
+    <!--  <item name="android:windowIsTranslucent">true</item> -->
+
+</resources>

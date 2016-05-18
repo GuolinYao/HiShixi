@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="post_message_str">发帖</string>
+    <string name="title_str">标题</string>
+    <string name="post_invitation_contentdesc_hint">在这里输入正文内容</string>
+    <string name="nickname_str">昵称</string>
+    <string name="nickname_warn_hint">请填写昵称</string>
+    <string name="edit_str">编辑</string>
+    <string name="my_invitation_str">我的帖子</string>
+<string name="my_reply_str">我的回复</string>
+</resources> 

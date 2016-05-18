@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="certificate_status">
+       <item>通过</item>
+       <item>在读</item>
+  </string-array>
+    <string-array name="date">
+    <item>年</item>
+      <item>月</item>
+      <item>日</item>
+ </string-array>
+    <string-array name="education">
+     <item>专科</item>
+     <item>本科</item>
+     <item>硕士</item>
+     <item>博士</item>
+ </string-array>
+    <string-array name="expectdaily_wage">
+     <item>50元以下/天</item>
+     <item>50~99元/天</item>
+     <item>100~200元/天</item>
+     <item>200以上/天</item>
+     <item>不要求薪资</item>
+ </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="week_day">
+     <item>1天</item>
+     <item>2天</item>
+     <item>3天</item>
+     <item>4天</item>
+     <item>5天</item>
+ </string-array>
+    <color name="bg_color">#EDEDED</color>
+    <color name="black">#000000</color>
+    <color name="comment_color">#F5F9FF</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="delete_btn_color">#00ACF0</color>
+    <color name="divider_color">#e0e0e0</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="form_value_color">#656565</color>
+    <color name="grgray">#686868</color>
+    <color name="header">#58567D</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="hint_font_color">#a5a5a5</color>
+    <color name="list_selector_color">#e5e5e5</color>
+    <color name="main_bg">#ffffff</color>
+    <color name="main_bg_color">#F8F8F8</color>
+    <color name="main_content_bg_color">#F2F1F6</color>
+    <color name="main_font_color">#1b1b1b</color>
+    <color name="main_font_nonomal_color">#bdbdbd</color>
+    <color name="main_form_nonomal_color">#656565</color>
+    <color name="no_nomal_btn_color">#59c9f5</color>
+    <color name="nomal_btn_color">#00acf0</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="press_btn_color">#008FC8</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="salary_range_font_color">#ff9600</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="search_frame_bg_color">#EBEBEB</color>
+    <color name="selected_font_color">#00ACF0</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="title_bar_buttom_color">#e0e0e0</color>
+    <color name="title_bar_color">#00ABF0</color>
+    <color name="title_bar_font_color">#1b1b1b</color>
+    <color name="title_bar_font_other_color">#656565</color>
+    <color name="title_bg_color">#F8F8F8</color>
+    <color name="translucency_black">#50000000</color>
+    <color name="translucency_white">#80ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="user_agreement_color">#486291</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <declare-styleable name="BannerLayout"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="integer" name="activeAlpha"/><attr format="integer" name="inactiveAlpha"/><attr format="dimension" name="radius"/><attr format="boolean" name="centered"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="boolean" name="snap"/><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CustomTheme"><attr format="reference" name="gifViewStyle"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="horizontal_spacing"/><attr format="dimension" name="vertical_spacing"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable>
+    <declare-styleable name="LibPullToRefresh"><attr format="reference|color" name="adapterViewBackground"/><attr format="reference|color" name="headerBackground"/><attr format="color" name="headerTextColor"/><attr name="mode"><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/><flag name="both" value="0x3"/></attr></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="SlidingLayout"><attr format="reference" name="background_view"/><attr format="enum" name="sliding_mode"><enum name="both" value="0"/><enum name="top" value="1"/><enum name="bottom" value="2"/></attr><attr format="enum" name="sliding_pointer_mode"><enum name="one" value="0"/><enum name="more" value="1"/></attr></declare-styleable>
+    <declare-styleable name="TopBar"><attr format="string" name="title"/><attr format="dimension" name="titleTextSize"/><attr format="color" name="titleTextColor"/><attr format="color" name="leftTextColor"/><attr format="reference|color" name="leftBackground"/><attr format="string" name="leftText"/><attr format="color" name="rightTextColor"/><attr format="reference|color" name="rightBackground"/><attr format="string" name="rightText"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="bottom_navigation_fontsize">10sp</dimen>
+    <dimen name="btn_height">44dp</dimen>
+    <dimen name="btn_textsize">17sp</dimen>
+    <dimen name="edit_bg_height">41dp</dimen>
+    <dimen name="flowlayout_textview_height">35dp</dimen>
+    <dimen name="form_textsize">15sp</dimen>
+    <dimen name="header_footer_internal_padding">20dp</dimen>
+    <dimen name="header_footer_left_right_padding">25dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="loading_height">40dp</dimen>
+    <dimen name="loading_width">128dp</dimen>
+    <dimen name="title_bar_height">49dp</dimen>
+    <dimen name="title_bar_margin">18dp</dimen>
+    <dimen name="toast_success_height">103dp</dimen>
+    <dimen name="toast_success_width">128dp</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="HR_source_str">人才库</string>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="account_number_hint">请输入手机号或邮箱</string>
+    <string name="account_number_str">账号</string>
+    <string name="account_password_str">账号和密码：</string>
+    <string name="action_settings">Settings</string>
+    <string name="all_str">全部</string>
+    <string name="app_name">Hi实习</string>
+    <string name="can_internship_stage_str">可实习阶段</string>
+    <string name="cancel_str">取消</string>
+    <string name="certificate_name_hint">请选择证书名称</string>
+    <string name="certificate_name_str">证书名称:</string>
+    <string name="certificate_state_hint">请选择当前状态</string>
+    <string name="certificate_state_str">证书状态:</string>
+    <string name="certificate_type_hint">请选择证书分类</string>
+    <string name="certificate_type_str">证书分类:</string>
+    <string name="certificateofhonor_str">证书和荣誉</string>
+    <string name="collect_tab_invitation">收藏帖子</string>
+    <string name="collect_tab_position">收藏职位</string>
+    <string name="commit_feedback_str">提交反馈</string>
+    <string name="company_desc_str">公司介绍</string>
+    <string name="company_name_hint">请填写企业名称</string>
+    <string name="company_name_str">企业名称：</string>
+    <string name="complete_create_str">完成创建</string>
+    <string name="confirm_str">确定</string>
+    <string name="contact_email_hint">请填写联系邮箱</string>
+    <string name="contact_email_str">联系邮箱</string>
+    <string name="contact_information_str">联系方式（手机/邮箱）</string>
+    <string name="contact_number_hint">请填写联系电话</string>
+    <string name="contact_number_str">联系电话</string>
+    <string name="copy_link_str">复制链接</string>
+    <string name="date_of_birth_hint">请选择出生日期</string>
+    <string name="date_of_birth_str">出生日期</string>
+    <string name="day_str">天</string>
+    <string name="dear_hr_hint">用心写下想对HR说的话</string>
+    <string name="dear_hr_hint2">写下想对HR说的话</string>
+    <string name="dear_hr_str">对HR说</string>
+    <string name="dearhr_str">Dear HR</string>
+    <string name="delete_str">删除</string>
+    <string name="discover_str">发现</string>
+    <string name="edit_mine_resume_str">编辑我的简历</string>
+    <string name="edit_resume_str">编辑我的简历</string>
+    <string name="edit_str">编辑</string>
+    <string name="education_experience_str">教育背景</string>
+    <string name="education_hint">请选择学历</string>
+    <string name="education_major_name_hint">请填写专业名称</string>
+    <string name="education_major_name_str">就读专业:</string>
+    <string name="education_school_name_hint">请填写就读学校</string>
+    <string name="education_school_name_str">学校名称:</string>
+    <string name="education_str">学历:</string>
+    <string name="email_hint">请输入邮箱账号</string>
+    <string name="email_str">邮箱</string>
+    <string name="encourage_str">去评分</string>
+    <string name="end_intership_time_hint">请选择实习结束时间</string>
+    <string name="end_intership_time_str">结束时间:</string>
+    <string name="enter_talentbank_str">马上加入</string>
+    <string name="everyweek_day_hint">请选择天数</string>
+    <string name="everyweek_day_str">每周可实习天数:</string>
+    <string name="expect_address_str">期望实习地:</string>
+    <string name="expect_category_str">期望岗位类型:</string>
+    <string name="expect_daily_wage_hint">请选择日薪范围</string>
+    <string name="expect_daily_wage_str">期望日薪:</string>
+    <string name="expect_day_str">每周可实习天数:</string>
+    <string name="expect_intern_area_hint">最多可选五项</string>
+    <string name="expect_intern_area_str">期望实习地</string>
+    <string name="expect_intern_position_hint">请选择实习职位</string>
+    <string name="expect_intern_position_str">期望实习职位:</string>
+    <string name="expect_salary_str">期望日薪:</string>
+    <string name="expect_stage_str">可实习阶段:</string>
+    <string name="forget_password_str">忘记密码？</string>
+    <string name="friend_circle_str">朋友圈</string>
+    <string name="gain_verification_code_str">获取验证码</string>
+    <string name="generic_error">你的网络不给力，数据加载失败了</string>
+    <string name="generic_server_down">服务器连接失败，程序员正在抢修</string>
+    <string name="get_time_hint">请选择获得证书时间</string>
+    <string name="get_time_str">获得时间:</string>
+    <string name="graduate_time_hint">请选择毕业时间</string>
+    <string name="graduate_time_str">毕业时间:</string>
+    <string name="head_str">头像</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highest_education_hint">请选择最高学历</string>
+    <string name="highest_education_str">最高学历</string>
+    <string name="hint_internship_time">请选择可实习时间</string>
+    <string name="home_page_str">首页</string>
+    <string name="honor_get_time_hint">请选择获奖时间</string>
+    <string name="honor_get_time_str">获奖时间</string>
+    <string name="honor_name_hint">请输入奖项名称，例如：管理会计案例分析大赛校级二等奖等</string>
+    <string name="honor_name_str">奖项名称</string>
+    <string name="hunter_tool">猎头工具</string>
+    <string name="identity_card_str">身份证</string>
+    <string name="internship_experience_str">实习经历</string>
+    <string name="intership_endtime2_str">实习结束时间</string>
+    <string name="intership_endtime_str">实习结束时间:</string>
+    <string name="intership_expericence_hint">用心填写实习经历，可以有效增加面试机会哦！友情提示：1.实习期间的主要工作？2.获得了哪些奖励或成绩？3.锻炼了哪些职场技能？4.提升了哪些软性素养？等</string>
+    <string name="intership_expericence_str">实习经历:</string>
+    <string name="intership_starttime2_str">实习开始时间</string>
+    <string name="intership_starttime_str">实习开始时间:</string>
+    <string name="invite_str">邀请我的小伙伴</string>
+    <string name="job_title_hint">请填写岗位名称</string>
+    <string name="job_title_str">岗位名称：</string>
+    <string name="join_activity_content_hint">请输入具体的活动内容，例如：世博会志愿者。</string>
+    <string name="join_activity_content_str">活动内容</string>
+    <string name="join_activity_time_hint">请选择参加活动时间</string>
+    <string name="join_activity_time_str">参加活动时间:</string>
+    <string name="join_intership_time_hint">请选择实习开始时间</string>
+    <string name="join_intership_time_str">开始时间:</string>
+    <string name="join_school_time_hint">请选择入学时间</string>
+    <string name="join_school_time_str">入学时间:</string>
+    <string name="layout_internship_intention_str">实习意向</string>
+    <string name="left_day_str">距离结束时间：</string>
+    <string name="link_share_str">分享链接</string>
+    <string name="loading_str">加载中...</string>
+    <string name="login_str">登录</string>
+    <string name="major_name_hint">请填写专业名称</string>
+    <string name="major_name_str">专业名称</string>
+    <string name="major_type_hint">请选择专业分类</string>
+    <string name="major_type_str">专业分类</string>
+    <string name="message_all_str">全部</string>
+    <string name="message_clear_topic_str">清空话题</string>
+    <string name="message_inappropriate_str">不合适</string>
+    <string name="message_notification_interview_str">通知面试</string>
+    <string name="message_system_message_str">系统消息</string>
+    <string name="message_topic_str">话题消息</string>
+    <string name="mine_browsing_history_str">浏览记录</string>
+    <string name="mine_collet_str">我的收藏</string>
+    <string name="mine_hunter_str">Hi猎头</string>
+    <string name="mine_login_or_register_hint">登录后可体验完整功能额</string>
+    <string name="mine_login_or_register_str">登录/注册</string>
+    <string name="mine_setting_str">设置</string>
+    <string name="mine_str">我的</string>
+    <string name="mission_and_reward">猎头须知</string>
+    <string name="my_invitation_str">我的帖子</string>
+    <string name="my_reply_str">我的回复</string>
+    <string name="name_hint">请填写姓名</string>
+    <string name="name_str">姓名</string>
+    <string name="new_password_hint">6~18位字母+数字</string>
+    <string name="new_password_str">新密码</string>
+    <string name="next_str">下一步</string>
+    <string name="nickname_str">昵称</string>
+    <string name="nickname_warn_hint">请填写昵称</string>
+    <string name="no_internet">你的网络不给力，数据加载失败了</string>
+    <string name="not_verify_str">未验证</string>
+    <string name="number">123</string>
+    <string name="opinion_content_hint">在这里写下你的吐槽和意见吧...</string>
+    <string name="opinion_feedback_str">意见反馈</string>
+    <string name="opinion_grade_str">意见和评分：</string>
+    <string name="optional_fields">选填</string>
+    <string name="out_login_str">退出登录</string>
+    <string name="password_hint">请输入登陆密码</string>
+    <string name="password_str">密码</string>
+    <string name="percent_str">%</string>
+    <string name="phone_number_hint">请输入手机号码</string>
+    <string name="phone_number_str">手机号</string>
+    <string name="phone_str">手机</string>
+    <string name="please_select_time_hint">请选择时间</string>
+    <string name="politics_status_str">政治面貌</string>
+    <string name="position_filter_education_str">学历</string>
+    <string name="position_filter_grade_str">毕业年份</string>
+    <string name="position_filter_searchframe_hint">搜索职位、企业名称</string>
+    <string name="position_filter_type_str">职位类别</string>
+    <string name="position_str">职位</string>
+    <string name="post_invitation_contentdesc_hint">在这里输入正文内容</string>
+    <string name="post_message_str">发帖</string>
+    <string name="present_address_hint">请选择现居地</string>
+    <string name="present_address_str">现居地</string>
+    <string name="preview_address_str">现居地:</string>
+    <string name="preview_basicinfo_str">基本信息</string>
+    <string name="preview_birth_str">出生日期:</string>
+    <string name="preview_contactemail_str">联系邮箱:</string>
+    <string name="preview_contactmobile_str">联系电话:</string>
+    <string name="preview_dear_hr_str">对HR说:</string>
+    <string name="preview_graduate_year_str">毕业年份:</string>
+    <string name="preview_highest_edu_str">最高学历:</string>
+    <string name="preview_indentitycard_str">身份证号:</string>
+    <string name="preview_major_name_str">专业名称:</string>
+    <string name="preview_major_type_str">专业分类:</string>
+    <string name="preview_mine_resume_str">预览我的简历</string>
+    <string name="preview_name_str">姓名:</string>
+    <string name="preview_politicsstatus_str">政治面貌:</string>
+    <string name="preview_resume_str">预览简历</string>
+    <string name="preview_school_str">就读学校:</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开加载</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中...</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <string name="qr_code_share_str">分享二维码</string>
+    <string name="register_str">注册</string>
+    <string name="reset_password_str">重置密码</string>
+    <string name="resume_collected">已收集</string>
+    <string name="resume_collected_str">收到 </string>
+    <string name="resume_drop_str"> 次投递</string>
+    <string name="resume_progress_str">简历完整度</string>
+    <string name="resume_share_str">分享</string>
+    <string name="resume_status_str">简历动态</string>
+    <string name="resume_sum">累计</string>
+    <string name="resume_unit">份</string>
+    <string name="resume_unit_str"> 份简历</string>
+    <string name="save_str">保存</string>
+    <string name="school_end_time_hint">请选择结束时间</string>
+    <string name="school_end_time_str">结束时间</string>
+    <string name="school_experience_str">校园经历</string>
+    <string name="school_job_experience_hint">用心填写职务经历，更丰富地展示自己！友情提示：1.任职期间的主要事迹？例如举办晚会、策划比赛、参加辩论赛、拉赞助、写新闻等。2.获得了哪些奖励或成绩？3.锻炼了哪些职场技能？4.提升了哪些软性素养？</string>
+    <string name="school_job_experience_str">职务经历</string>
+    <string name="school_job_title_hint">请填写职务名称</string>
+    <string name="school_job_title_str">职务名称</string>
+    <string name="school_name_hint">请填写就读学校</string>
+    <string name="school_name_str">就读学校</string>
+    <string name="school_start_time_hint">请选择开始时间</string>
+    <string name="school_start_time_str">开始时间</string>
+    <string name="select_can_internship_stage_hint">请选择实习时间</string>
+    <string name="select_expect_intern_area_hint">请选择期望实习地</string>
+    <string name="select_graduate_year_str">请选择毕业年份</string>
+    <string name="sex_hint">请选择性别</string>
+    <string name="sex_str">性别</string>
+    <string name="share_str">分享到</string>
+    <string name="sina_weibo_str">微博</string>
+    <string name="talent_preview_invite_desc_str">（转发获得好友支持）</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="tencend_str">QQ</string>
+    <string name="test_email_hint">验证邮箱后你可以及时收到HR的反馈邮件</string>
+    <string name="test_email_str">验证邮箱</string>
+    <string name="test_email_warn_hint">请输入常用邮箱</string>
+    <string name="test_phone_hint">绑定手机后将及时收到HR反馈投递的消息</string>
+    <string name="test_str">验证</string>
+    <string name="title_str">标题</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause: </string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_mail">邮件</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_sina">新浪</string>
+    <string name="umeng_socialize_sms">短信</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_alipay_key">支付宝</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_evernote_key">印象笔记</string>
+    <string name="umeng_socialize_text_facebook_key">facebook</string>
+    <string name="umeng_socialize_text_flickr_key">Flickr</string>
+    <string name="umeng_socialize_text_foursquare_key">Foursquare</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_googleplus_key">GooglePlus</string>
+    <string name="umeng_socialize_text_instagram_key">instagram</string>
+    <string name="umeng_socialize_text_kakao_key">Kakao Talk</string>
+    <string name="umeng_socialize_text_laiwangdynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_line_key">LINE</string>
+    <string name="umeng_socialize_text_linkedin_key">Linkedin</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_pinterest_key">pinterest</string>
+    <string name="umeng_socialize_text_pocket_key">pocket</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_tumblr_key">Tumblr</string>
+    <string name="umeng_socialize_text_twitter_key">twitter</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_whatsapp_key">WhatsApp</string>
+    <string name="umeng_socialize_text_ydnote_key">有道云笔记</string>
+    <string name="umeng_socialize_text_yixin_key">易信</string>
+    <string name="umeng_socialize_text_yixincircle_key">易信朋友圈</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <string name="update_password_hint">请输入6-20位字符新密码</string>
+    <string name="update_pssword_str">修改密码</string>
+    <string name="update_verification_code_hint">请输入验证码</string>
+    <string name="urgency_mission_str">紧急任务</string>
+    <string name="valid_str">有效简历</string>
+    <string name="verification_code_hint">请输入验证码</string>
+    <string name="verification_code_str">验证码</string>
+    <string name="verified_str">已验证</string>
+    <string name="weixin_str">微信</string>
+    <style name="ACPLDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ActivityTheme_Light" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <!--
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        -->
+    </style>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_down_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_up_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_down_out</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CancelTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ContentOverlay" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+       <item name="android:windowBackground">@drawable/splash</item>  
+        <item name="android:windowContentOverlay">@null</item>
+         <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
+    <style name="DataSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <!-- <item name="android:windowExitAnimation">@anim/push_down_out</item> -->
+    </style>
+    <style name="Dialog" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置对话框背景不变暗 -->
+    </style>
+    <style name="FindPositionTableText">
+        <item name="android:textColor">@color/filter_item_textview_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableRight">@drawable/select_search</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style>
+    <style name="Supernatant_Theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="articlelist_item_ratingbar_style" parent="@android:style/Widget.RatingBar">
+￼                        <item name="android:progressDrawable">@drawable/mine_ratingbar</item>
+￼￼                        <item name="android:numStars">5</item>
+￼                        <item name="android:minHeight">12.5dp</item>
+￼                        <item name="android:maxHeight">12.5dp</item>
+    </style>
+    <style name="basic_info_editext_single_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+        <item name="android:textColor">@color/main_font_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">23dp</item>
+    </style>
+    <style name="basic_info_titile_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_font_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="basic_info_value_parent_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_form_nonomal_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="basic_info_value_style" parent="@style/basic_info_value_parent_style">
+        <item name="android:drawableRight">@drawable/more_info_grey</item>
+        <item name="android:drawablePadding">7.5dp</item>
+    </style>
+    <style name="bottom_navigation_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="list_marginLeftAndRight_style">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="list_marginLeft_style">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="list_marginRight_style">
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="list_paddingRight_style">
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <style name="list_padding_style">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <style name="list_paddingleft_style">
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+    <style name="match_width_wrap_height_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="myProgressStyle" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/myprogress</item>
+    </style>
+    <style name="myProgressStyle1" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/myprogress1</item>
+    </style>
+    <style name="nomal_margin_left">
+        <item name="android:layout_marginLeft">@dimen/title_bar_margin</item>
+        <item name="android:paddingRight">@dimen/title_bar_margin</item>
+    </style>
+    <style name="nomal_margin_left_right">
+        <item name="android:layout_marginLeft">@dimen/title_bar_margin</item>
+        <item name="android:layout_marginRight">@dimen/title_bar_margin</item>
+    </style>
+    <style name="nomal_margin_right">
+        <item name="android:layout_marginRight">@dimen/title_bar_margin</item>
+    </style>
+    <style name="nomal_padding_left">
+        <item name="android:paddingLeft">17dp</item>
+    </style>
+    <style name="nomal_padding_left_right">
+        <item name="android:paddingLeft">@dimen/title_bar_margin</item>
+        <item name="android:paddingRight">@dimen/title_bar_margin</item>
+    </style>
+    <style name="nomal_padding_right">
+        <item name="android:paddingRight">17dp</item>
+    </style>
+    <style name="official">
+        <item name="android:background">@drawable/official_bg</item>
+        <item name="android:textColor">@color/main_bg</item>
+    </style>
+    <style name="preview_long_line">
+        <item name="android:layout_width">fill_parent</item>
+          <item name="android:layout_height">2px</item>
+            <item name="android:layout_gravity">bottom</item>
+          <item name="android:background">#e0e0e0</item>
+    </style>
+    <style name="preview_resume_title_left_margin">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="preview_resume_title_margin">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="preview_resume_title_right_margin">
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="preview_short_line">
+        <item name="android:layout_width">fill_parent</item>
+          <item name="android:layout_height">2px</item>
+          <item name="android:background">#00acf0</item>
+    </style>
+    <style name="preview_title_font">
+           <!-- <item name="android:layout_height">36dp</item> -->
+        <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">wrap_content</item>
+          <item name="android:minHeight">36dp</item>
+            <item name="android:textSize">16sp</item>
+          <item name="android:textColor">#a5a5a5</item>
+            <item name="android:gravity">center_vertical</item>
+          <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="preview_value_font">
+         <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">wrap_content</item>
+            <item name="android:textSize">16sp</item>
+          <item name="android:textColor">#656565</item>
+          <item name="android:lineSpacingExtra">7dp</item>
+    </style>
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="progress_horizontal_1">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_1</item>
+        <!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:maxHeight">14dp</item>
+    </style>
+    <style name="progress_horizontal_2">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_2</item>
+        <!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">8dp</item>
+        <item name="android:maxHeight">8dp</item>
+    </style>
+    <style name="refresh_progress_style" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/refresh_progress</item>
+    </style>
+    <style name="selected_text_font_color">
+        <item name="android:textColor">@color/selected_font_color</item>
+    </style>
+    <style name="selected_text_font_style" parent="@style/wrap_width_height_style">
+        <item name="android:textColor">@color/selected_font_color</item>
+    </style>
+    <style name="stick">
+        <item name="android:background">@drawable/stick_bg</item>
+        <item name="android:textColor">@color/main_bg</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+    <style name="wrap_width_height_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

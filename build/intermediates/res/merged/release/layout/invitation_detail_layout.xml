@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_content_bg_color">
+
+    <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@drawable/title_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_back"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_back" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_delete"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/tv_title_bar_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/gengduo" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_collect"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/fl_title_bar_delete"
+            android:layout_toStartOf="@id/fl_title_bar_delete"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/tv_title_bar_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/favourite" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_share"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/fl_title_bar_collect"
+            android:layout_toStartOf="@id/fl_title_bar_collect"
+            android:onClick="onClick"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/tv_title_bar_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/share_position" />
+        </FrameLayout>
+    </RelativeLayout> -->
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+        <com.shixi.gaodun.libpull.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/scrollview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_bg_color"
+            android:scrollbars="none"
+             android:divider="@color/main_bg_color"
+           android:dividerHeight="15dp"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrMode="manualOnly" 
+            />
+        
+        <ImageButton android:id="@+id/follow_up_invitation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="bottom|start"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/transparent"
+            android:onClick="onClick"
+            android:src="@drawable/reply"/>
+    </FrameLayout>
+
+</LinearLayout>

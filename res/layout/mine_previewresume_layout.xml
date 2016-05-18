@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+  android:orientation="vertical" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/main_bg_color"
+    android:scrollbars="none" 
+    android:overScrollMode="never"
+    android:layout_weight="1"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <RelativeLayout android:id="@+id/layout_basic_info"
+            style="@style/list_marginLeftAndRight_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/priview_top_bg"
+             >
+
+            <ImageView
+                android:id="@+id/image_top"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/weidenglutouxiang" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_top"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/main_bg"
+                android:textSize="18sp" />
+
+            <TextView android:id="@+id/text_studyinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_bg"
+                    android:textSize="14sp" 
+                    android:layout_below="@id/text_name"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="15dp"
+                    android:gravity="center"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/layout_main"
+            style="@style/list_marginLeftAndRight_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame_bg" 
+            android:layout_below="@id/layout_basic_info"
+            >
+
+            <LinearLayout
+                android:id="@+id/layout_basicinfo_title"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_basicinfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/preview_basicinfo_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line"
+                         />
+                </LinearLayout>
+
+                <View
+                   style="@style/preview_long_line" />
+            </LinearLayout>
+            <!-- 基本信息 -->
+
+            <LinearLayout
+                android:id="@+id/layout_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_basicinfo_title"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_preview_birth"
+                    style="@style/preview_title_font"
+                    android:layout_width="91dp"
+                    android:text="@string/preview_birth_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_birthvalue"
+                    style="@style/preview_value_font"
+                  />
+            </LinearLayout>
+            <!-- 现居地 -->
+
+            <LinearLayout
+                android:id="@+id/layout_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_birth"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_preview_address"
+                    style="@style/preview_title_font"
+                    android:layout_width="91dp"
+                    android:text="@string/preview_address_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_addressvalue"
+                    style="@style/preview_value_font"
+                     />
+            </LinearLayout>
+            <!-- 联系电话 -->
+
+            <LinearLayout
+                android:id="@+id/layout_contactmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_address"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_preview_contactmobile"
+                    style="@style/preview_title_font"
+                   android:layout_width="91dp"
+                    android:text="@string/preview_contactmobile_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_contactmobile_value"
+                    style="@style/preview_value_font"
+                    />
+            </LinearLayout>
+            <!-- 联系邮箱 -->
+            <LinearLayout
+                android:id="@+id/layout_contactemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_contactmobile"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/preview_title_font"
+                    android:layout_width="91dp"
+                    android:text="@string/preview_contactemail_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_contactemail_value"
+                    style="@style/preview_value_font"
+                  />
+            </LinearLayout>
+            <!-- 身份证号 -->
+
+            <LinearLayout
+                android:id="@+id/layout_indentitycard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_contactemail"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_preview_indentitycard"
+                    style="@style/preview_title_font"
+                    android:layout_width="91dp"
+                    android:text="@string/preview_indentitycard_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_indentitycard_value"
+                    style="@style/preview_value_font"
+                    />
+            </LinearLayout>
+            <!-- 政治面貌 -->
+
+            <LinearLayout
+                android:id="@+id/layout_politicsstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_indentitycard"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_preview_politicsstatus"
+                    style="@style/preview_title_font"
+                    android:minWidth="100dp"
+                    android:text="@string/preview_politicsstatus_str" />
+
+                <TextView
+                    android:id="@+id/text_preview_politicsstatus_value"
+                    style="@style/preview_value_font"
+                  />
+            </LinearLayout>
+            <!-- 实习意向 -->
+
+            <LinearLayout
+                android:id="@+id/layout_internship_intention"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_politicsstatus"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/layout_internship_intention_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!-- 期望实习地点 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expect_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_internship_intention"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" > 
+
+                <TextView
+                    android:id="@+id/text_expect_address"
+                    style="@style/preview_title_font"
+                    android:layout_width="145dp"
+                    android:text="@string/expect_address_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_address_value"
+                    style="@style/preview_value_font"
+                     />
+            </LinearLayout>
+            <!-- 期望可实习天数 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expectdays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_expect_address"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_days"
+                    style="@style/preview_title_font"
+                   android:layout_width="145dp"
+                    android:text="@string/expect_day_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_days_value"
+                    style="@style/preview_value_font"
+                    />
+            </LinearLayout>
+            <!-- 期望岗位类型 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expectposttype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_expectdays"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_posttype"
+                    style="@style/preview_title_font"
+                    android:layout_width="145dp"
+                    android:text="@string/expect_category_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_posttype_value"
+                    style="@style/preview_value_font"
+                   />
+            </LinearLayout>
+            <!-- 期望日薪 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expectsalary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_expectposttype"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_salary"
+                    style="@style/preview_title_font"
+                    android:layout_width="145dp"
+                    android:text="@string/expect_salary_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_salary_value"
+                    style="@style/preview_value_font"
+                   />
+            </LinearLayout>
+            <!-- 可实习阶段 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expectstage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_expectsalary"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_stage"
+                    style="@style/preview_title_font"
+                   android:layout_width="145dp"
+                    android:text="@string/expect_stage_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_stage_value"
+                    style="@style/preview_value_font"
+                     />
+            </LinearLayout>
+            <!-- 教育经历 -->
+
+            <LinearLayout
+                android:id="@+id/layout_education_experience"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_expectstage"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/education_experience_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!-- 教育背景的容器 -->
+
+            <LinearLayout
+                android:id="@+id/layout_education_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_education_experience"
+                 style="@style/preview_resume_title_margin"
+                android:orientation="vertical"/>
+             <!-- 实习经历 -->
+            <LinearLayout
+                android:id="@+id/layout_internship_experience"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_education_group"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/internship_experience_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!--实习经历的容器 -->
+            <LinearLayout
+                android:id="@+id/layout_internship_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_internship_experience"
+                style="@style/preview_resume_title_margin"
+                android:orientation="vertical" />
+             <!-- 校园经历 -->
+            <LinearLayout
+                android:id="@+id/layout_school_experience"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_internship_group"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/school_experience_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!--校园经历的容器 -->
+            <LinearLayout
+                android:id="@+id/layout_school_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_school_experience"
+                style="@style/preview_resume_title_margin"
+                android:orientation="vertical" />
+               <!-- 荣誉和证书 -->
+            <LinearLayout
+                android:id="@+id/layout_certificateofhonor"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_school_group"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/certificateofhonor_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!--荣誉证书的容器 -->
+            <LinearLayout
+                android:id="@+id/layout_certificateofhonor_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_certificateofhonor"
+                style="@style/preview_resume_title_margin"
+                android:orientation="vertical" />
+               <!-- HR -->
+            <LinearLayout
+                android:id="@+id/layout_dearhr"
+                style="@style/preview_resume_title_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_certificateofhonor_group"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/dearhr_str"
+                        android:textColor="@color/main_font_color"
+                        android:textSize="16sp" />
+
+                    <View style="@style/preview_short_line" />
+                </LinearLayout>
+
+                <View style="@style/preview_long_line" />
+            </LinearLayout>
+            <!--HR -->
+            <TextView
+                android:id="@+id/text_dearhr_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_dearhr"
+                style="@style/preview_resume_title_margin"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:textColor="#656565"
+                android:paddingBottom="20dp"/>
+        </RelativeLayout>
+      <!-- 填充 -->
+       <!--  <View android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/layout_main"/> -->
+   </RelativeLayout>
+</ScrollView>
+ <RelativeLayout
+            android:id="@+id/rl_edit_resume"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:background="#00ABF0"
+            android:gravity="center"
+            android:onClick="onClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_resume_str"
+                android:drawableLeft="@drawable/edit"
+                android:drawableStart="@drawable/edit"
+                android:drawablePadding="5dp"
+                android:textColor="@color/main_bg"
+                android:textSize="@dimen/btn_textsize" />
+        </RelativeLayout>
+        </LinearLayout>

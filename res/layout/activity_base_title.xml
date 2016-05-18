@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题基本布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@drawable/title_bar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/fl_title_bar_back"
+        android:layout_width="@dimen/title_bar_height"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_marginLeft="@dimen/title_bar_margin"
+        android:layout_marginStart="@dimen/title_bar_margin"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/iv_title_bar_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icon_close" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title_bar_titlename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxWidth="240dp"
+        android:singleLine="true"
+        android:textColor="@color/title_bar_font_color"
+        android:textSize="18sp" />
+    <!-- android:textColor="@color/title_bar_font_other_color" -->
+
+    <TextView
+        android:id="@+id/tv_title_bar_otherbtn"
+        style="@style/list_padding_style"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:text="@string/app_name"
+        android:textColor="@color/save_btn_font_bg"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fl_title_bar_one"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:onClick="onClick"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/tv_title_bar_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/favourite" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_title_bar_two"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/tv_title_bar_otherbtn"
+        android:layout_toLeftOf="@id/fl_title_bar_one"
+        android:layout_toRightOf="@id/tv_title_bar_otherbtn"
+        android:layout_toStartOf="@id/fl_title_bar_one"
+        android:onClick="onClick"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/tv_title_bar_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/share_position" />
+    </FrameLayout>
+
+</RelativeLayout>

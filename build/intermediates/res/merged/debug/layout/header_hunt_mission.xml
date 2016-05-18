@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="#f2f1f6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/main_bg"
+        android:gravity="center_horizontal" >
+
+        <ProgressBar
+            android:id="@+id/pb_finish_resume"
+            style="@style/progress_horizontal_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_finish_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pb_finish_resume"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/tv_finish_resume_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/resume_collected_str"
+                android:textColor="#656565"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_finish_resume_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/tv_finish_resume_1"
+                android:layout_toRightOf="@id/tv_finish_resume_1"
+                android:textColor="#ff6c00"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_finish_resume_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/tv_finish_resume_2"
+                android:layout_toRightOf="@id/tv_finish_resume_2"
+                android:text="@string/resume_unit_str"
+                android:textColor="#656565"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/rl_finish_resume"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dashed_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/main_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_mission_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#656565"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:text="@string/left_day_str"
+            android:textColor="#656565"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_mission_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff6c00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day_str"
+            android:textColor="#656565"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rl_urgency_mission"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+         android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:background="@color/main_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/urgent_task"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/urgent_task"
+            android:gravity="center_vertical"
+            android:text="@string/urgency_mission_str"
+            android:textColor="#ff6c00"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/enter_orange" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color" 
+    android:gravity="center_horizontal">
+    
+    <FrameLayout android:id="@+id/fl_change_image"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        >
+        <ImageView
+            android:id="@+id/image_topic_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/white_round"
+            android:padding="1.5dp"
+            android:src="@drawable/default_touxiang_xiaoerhei"
+            android:scaleType="centerCrop" />
+        <ImageView  android:id="@+id/image_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/camera"
+            android:layout_gravity="bottom|end"/>
+    </FrameLayout>
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/tom_bottom_frame_bg">
+        <TextView android:id="@+id/text_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@style/list_marginLeftAndRight_style"
+            android:textColor="@color/main_font_color"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="@string/nickname_str"/>
+        <com.shixi.gaodun.view.ClearEditTextView android:id="@+id/edit_nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/text_name_title"
+            android:layout_toEndOf="@id/text_name_title"
+            android:background="@color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/form_value_color"
+            style="@style/list_marginRight_style"
+            android:gravity="start|center_vertical"
+            android:hint="@string/nickname_warn_hint"
+           />
+    </RelativeLayout>
+</LinearLayout>

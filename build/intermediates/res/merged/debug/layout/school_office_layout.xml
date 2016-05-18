@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f1f6" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rl_resume_basicinfo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <RelativeLayout
+                android:id="@+id/rl_school_job_title_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_jschool_job_title_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/school_job_title_str" />
+
+                <EditText
+                    android:id="@+id/et_school_job_title_value"
+                    style="@style/basic_info_value_parent_style"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_jschool_job_title_key"
+                    android:layout_toRightOf="@id/tv_jschool_job_title_key"
+                    android:background="@color/transparent"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/school_job_title_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_school_start_time_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@id/rl_school_job_title_layout"
+                android:background="@drawable/edit_frame_bg"
+                 android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_school_start_time_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/school_start_time_str" />
+
+
+                <TextView
+                    android:id="@+id/tv_school_start_time_value"
+                   style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_join_school_time_key"
+                    android:layout_toRightOf="@id/tv_join_school_time_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/school_start_time_hint"
+                    android:singleLine="true"
+                   />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_school_end_time_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@id/rl_school_start_time_layout"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_school_end_time_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/school_end_time_str" />
+
+                <TextView
+                    android:id="@+id/tv_school_end_time_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_join_school_time_key"
+                    android:layout_toRightOf="@id/tv_join_school_time_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/school_end_time_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_school_job_experience_key"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_resume_basicinfo_layout"
+            android:gravity="center_vertical"
+            android:text="@string/school_job_experience_str"
+            android:textColor="#656565"
+            android:textSize="@dimen/form_textsize" />
+
+        <EditText
+            android:id="@+id/et_intership_expericence_content"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_below="@id/tv_school_job_experience_key"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:gravity="top|start"
+            android:hint="@string/school_job_experience_hint"
+            android:maxLength="300"
+            android:padding="17dp"
+            android:textSize="@dimen/form_textsize" />
+
+        <TextView
+            android:id="@+id/tv_expericence_content_length"
+            style="@style/nomal_margin_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_intership_expericence_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#BCBCBC" />
+
+        <Button
+            android:id="@+id/btn_addorupdate"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/tv_expericence_content_length"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClick"
+            android:text="@string/save_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btn_addorupdate"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/deletebtn_bg"
+            android:onClick="onClick"
+            android:text="@string/delete_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</ScrollView>

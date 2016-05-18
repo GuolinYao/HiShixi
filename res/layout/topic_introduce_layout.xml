@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <ImageView android:id="@+id/image_topicimage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+           android:contentDescription="@string/app_name"
+           android:src="@drawable/touxiang"/>
+        <TextView android:id="@+id/text_topic_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:textColor="@color/main_font_color"
+            android:layout_toRightOf="@id/image_topicimage"
+            android:layout_toEndOf="@id/image_topicimage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            />
+    </RelativeLayout>
+
+    <TextView android:id="@+id/text_topic_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="13sp"
+        android:textColor="#656565"/>
+</LinearLayout>

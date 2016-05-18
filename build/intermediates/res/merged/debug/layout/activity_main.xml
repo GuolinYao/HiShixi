@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/fl_tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/main_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_weight="0"
+        android:background="@drawable/tab_bg" >
+
+        <RadioGroup
+            android:id="@+id/rg_tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_tab_one"
+                style="@style/bottom_navigation_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/tab_homepage_bg"
+                android:text="@string/home_page_str"
+                android:textSize="@dimen/bottom_navigation_fontsize" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_two"
+                style="@style/bottom_navigation_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/tab_position_bg"
+                android:text="@string/position_str"
+                android:textSize="@dimen/bottom_navigation_fontsize" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_three"
+                style="@style/bottom_navigation_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/tab_discover_bg"
+                android:text="@string/discover_str"
+                android:textSize="@dimen/bottom_navigation_fontsize" />
+
+            <RadioButton
+                android:id="@+id/rb_tab_four"
+                style="@style/bottom_navigation_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/tab_mine_bg"
+                android:text="@string/mine_str"
+                android:textSize="@dimen/bottom_navigation_fontsize" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页职位列表 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main_bg_color"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_eidtext_layout"
+        style="@style/nomal_padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@drawable/bottom_frame_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- 当前选择的城市，默认为全国 -->
+
+        <!--   <TextView
+              android:id="@+id/tv_position_byaddress"
+              style="@style/selected_text_font_style"
+              android:drawableEnd="@drawable/langou"
+              android:drawableRight="@drawable/langou"
+              android:gravity="center"
+              android:maxWidth="150dp"
+              android:minWidth="60dp"
+              android:singleLine="true"
+              android:text="全国"
+              android:textSize="16sp" /> -->
+
+        <TextView
+            android:id="@+id/tv_position_byaddress"
+            style="@style/selected_text_font_style"
+            android:drawableEnd="@drawable/langou"
+            android:drawableRight="@drawable/langou"
+            android:gravity="center"
+            android:maxWidth="150dp"
+            android:minWidth="60dp"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:text="全国"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_position_editcontent"
+            style="@style/nomal_padding_left"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_frame_bg"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/position_filter_searchframe_hint"
+            android:singleLine="true"
+            android:visibility="gone"/>
+
+        <com.shixi.gaodun.view.ClearEditTextView
+            android:id="@+id/cet_position_editcontent"
+            style="@style/nomal_padding_left"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_frame_bg"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/position_filter_searchframe_hint"
+            android:imeOptions="actionSearch"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_position_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/selected_font_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_frame_bg"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!--  <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:gravity="center" >
+
+             <TextView
+                 android:id="@+id/tv_filter_position_type"
+                 style="@style/FindPositionTableText"
+                 android:textColor="@color/filter_item_textview_color"
+                 android:text="@string/position_filter_type_str" />
+         </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/layout_filter_position_type"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_filter_position_type"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/position_filter_type_str"
+                android:textColor="@color/filter_item_textview_color"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/select_search"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_filter_education"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_filter_education"
+                style="@style/FindPositionTableText"
+                android:text="@string/position_filter_education_str"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_graducation"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_filter_graducation"
+                style="@style/FindPositionTableText"
+                android:text="@string/position_filter_grade_str"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 筛选结果展示 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- 有数据时列表 -->
+        <!--  <com.handmark.pulltorefresh.library.PullToRefreshListView
+             android:id="@+id/prlv_positionlist_pull"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:cacheColorHint="@color/main_bg"
+             android:divider="@color/divider_color"
+             android:dividerHeight="1px"
+             android:fadingEdge="none"
+             android:fastScrollEnabled="false"
+             android:footerDividersEnabled="false"
+             android:headerDividersEnabled="false"
+             android:background="@drawable/edit_frame_bg"
+             android:smoothScrollbar="true" /> -->
+
+        <com.shixi.gaodun.libpull.PullToRefreshListView
+            android:id="@+id/prlv_positionlist_pull"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/edit_frame_bg"
+            android:cacheColorHint="#80ffffff"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="#80ffffff"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="none"
+            android:scrollingCache="false"
+            />
+        <!-- 没有数据时的展示 -->
+        <RelativeLayout
+            android:id="@+id/list_null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+        </RelativeLayout>
+
+        <!-- 点击筛选时的弹框包括职位类别、学历、毕业年份 -->
+        <LinearLayout
+            android:id="@+id/filter_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/filter_dialog_bg"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/show_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_bg_color"
+                android:descendantFocusability="blocksDescendants"
+                android:focusable="false"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 搜索匹配 -->
+        <LinearLayout
+            android:id="@+id/filter_word_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/filter_dialog_bg"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/show_word_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_content_bg_color"
+                android:descendantFocusability="blocksDescendants"
+                android:focusable="false"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

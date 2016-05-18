@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout android:id="@+id/layout_internshipexperience"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView android:id="@+id/text_education_schoolname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+          android:textColor="@color/form_value_color" 
+           android:gravity="center_vertical"
+           android:text="上海财经大学"/>
+        <TextView android:id="@+id/text_education_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+           android:textSize="16sp"
+           android:textColor="@color/form_value_color" 
+           android:gravity="center_vertical"
+           android:layout_marginLeft="30dp"
+           android:layout_marginStart="30dp"
+           android:text="2015.06-2015.09"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/layout_commpany_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_internshipexperience" 
+        android:layout_marginBottom="10dp"
+        android:lineSpacingExtra="5dp"
+         android:textSize="16sp"
+           android:textColor="@color/form_value_color" 
+        android:text="上海银行陆家嘴分行上海银行陆家嘴分行上海银行陆家嘴分行上海银行陆家嘴分行上海银行陆家嘴分行"/>
+     <View android:id="@+id/view_dash_line"
+         android:background="@drawable/dashed_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/layout_commpany_desc"/>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent" 
+     android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:background="@color/main_bg"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/topic_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/default_image_icon" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/topic_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#656565"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/topic_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topic_title"
+                android:layout_marginTop="10dp"
+                android:textColor="#a5a5a5"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/more_info_grey" />
+    </LinearLayout>
+    
+    <FrameLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <!--  android:paddingBottom="15dp" -->
+     <com.shixi.gaodun.view.MyListView
+        android:id="@+id/listview_commpany_home"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_bg"
+        android:divider="@color/transparent"
+        android:listSelector="@color/main_bg_color"
+        android:dividerHeight="0px"
+        android:scrollbars="none"
+      />
+      <!--   <ListView
+        android:id="@+id/listview_commpany_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bg"
+        android:divider="@color/transparent"
+        android:dividerHeight="0px"
+        android:scrollbars="none"
+      /> -->
+     <!-- 没有帖子列表 -->
+     <FrameLayout android:id="@+id/layout_none_invitationlist"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:visibility="gone"/>
+     </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f1f6" >
+
+    <RelativeLayout
+        android:id="@+id/rl_resume_basicinfo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_school_name_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_school_name_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/education_school_name_str" />
+
+            <EditText
+                android:id="@+id/et_school_name_value"
+                style="@style/basic_info_value_parent_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_school_name_key"
+                android:layout_toRightOf="@id/tv_school_name_key"
+                android:background="@color/transparent"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/education_school_name_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_major_name_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_below="@id/rl_school_name_layout"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_major_name_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/education_major_name_str" />
+
+            <EditText
+                android:id="@+id/et_major_name_value"
+                style="@style/basic_info_value_parent_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_major_name_key"
+                android:layout_toRightOf="@id/tv_major_name_key"
+                android:background="@color/transparent"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/education_major_name_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_education_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_below="@id/rl_major_name_layout"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:id="@+id/tv_education_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/education_str" />
+
+            <TextView
+                android:id="@+id/tv_education_value"
+                style="@style/basic_info_value_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_education_key"
+                android:layout_toRightOf="@id/tv_education_key"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/education_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_join_school_time_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_below="@id/rl_education_layout"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:id="@+id/tv_join_school_time_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/join_school_time_str" />
+
+            <TextView
+                android:id="@+id/tv_join_school_time_value"
+                style="@style/basic_info_value_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_join_school_time_key"
+                android:layout_toRightOf="@id/tv_join_school_time_key"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/join_school_time_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_graduate_time_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_below="@+id/rl_join_school_time_layout"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:id="@+id/tv_graduate_time_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/graduate_time_str" />
+
+            <TextView
+                android:id="@+id/tv_graduate_time_value"
+                style="@style/basic_info_value_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_graduate_time_key"
+                android:layout_toRightOf="@id/tv_graduate_time_key"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/graduate_time_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_addorupdate"
+        style="@style/nomal_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/rl_resume_basicinfo_layout"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="onClick"
+        android:text="@string/save_str"
+        android:textColor="@color/main_bg"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/nomal_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/btn_addorupdate"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/deletebtn_bg"
+        android:onClick="onClick"
+        android:text="@string/delete_str"
+        android:textColor="@color/main_bg"
+        android:textSize="17sp" 
+        android:visibility="gone"/>
+</RelativeLayout>

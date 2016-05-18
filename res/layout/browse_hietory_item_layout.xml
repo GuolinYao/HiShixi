@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_paddingleft_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_line_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <ImageView
+            android:id="@+id/image_position_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_bg"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            style="@style/list_marginLeft_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                 android:id="@+id/text_positio"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_positionname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:text="已发生纠纷哦我发的发大水"
+                    android:textColor="@color/main_font_color"
+                    android:textSize="16sp" />
+
+                <!-- 职位城市名 -->
+
+                <TextView
+                    android:id="@+id/text_position_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a5a5a5"
+                    android:text="[上海]"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_commpany_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_positio"
+                android:layout_marginTop="10dp"
+                android:text="律师"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/form_value_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_commpany_name"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/form_value_color"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_right"
+            style="@style/list_marginRight_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <!--
+                  <TextView
+                android:id="@+id/text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:textColor="#a5a5a5"
+                android:textSize="12sp" 
+               android:text="时间"/>
+            -->
+
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:textColor="@color/delete_btn_color"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_like_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/shoucang"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/nomal_padding_left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_frame_bg"
+    android:orientation="vertical"
+    android:paddingBottom="15dp" >
+
+    <ImageView
+        android:id="@+id/iv_commpany_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/default_image_icon"
+        android:contentDescription="@string/app_name"
+        android:padding="1dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/ll_position_basicinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@id/iv_commpany_image"
+        android:layout_toRightOf="@id/iv_commpany_image"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_position_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="财务管理实习生财务管理实习生财务管理实习生财务管理实习生"
+                android:textColor="@color/title_bar_font_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_position_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="[上海]"
+                android:textColor="#a5a5a5"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wrap_width_height_style"
+            android:orientation="horizontal" >
+
+            <com.shixi.gaodun.view.ByLengthSetShowTextView
+                android:id="@+id/tv_commpany_name"
+                style="@style/wrap_width_height_style"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#656565"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/wrap_width_height_style"
+                android:text="("
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_commpany_number"
+                style="@style/wrap_width_height_style"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_industry_name"
+                style="@style/wrap_width_height_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                style="@style/wrap_width_height_style"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text=")"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            style="@style/wrap_width_height_style"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_salary_range"
+                style="@style/wrap_width_height_style"
+                android:drawableLeft="@drawable/info"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/info"
+                android:singleLine="true"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_education"
+                style="@style/wrap_width_height_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_salary_range"
+                android:layout_toRightOf="@id/tv_salary_range"
+                android:singleLine="true"
+                android:text="本科"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_weekday"
+                style="@style/wrap_width_height_style"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/tv_education"
+                android:layout_toRightOf="@id/tv_education"
+                android:singleLine="true"
+                android:text="本科"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_publish_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/history"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/history"
+            android:text="2天"
+            android:textColor="#a5a5a5"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

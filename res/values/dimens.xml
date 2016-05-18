@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">25dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">10dp</dimen>
+    <dimen name="header_footer_internal_padding">20dp</dimen>
+    
+    <!-- 提示成功的toast默认宽高 -->
+    <dimen name="toast_success_width">128dp</dimen>
+    <dimen name="toast_success_height">103dp</dimen>
+    <!-- loading时背景的默认宽高 -->
+    <dimen name="loading_width">128dp</dimen>
+    <dimen name="loading_height">40dp</dimen>
+    <dimen name="title_bar_height">49dp</dimen>
+    <dimen name="title_bar_margin">18dp</dimen>
+    <dimen name="edit_bg_height">41dp</dimen>
+    <!-- 常用的可点击按钮的高度 -->
+    <dimen name="btn_height">44dp</dimen>
+    <!-- 常用的提交确定按钮的字体大小 -->
+    <dimen name="btn_textsize">17sp</dimen>
+    <!-- 常用的表单显示的字体的大小 -->
+    <dimen name="form_textsize">15sp</dimen>
+    <!-- 底部导航字体大小 -->
+    <dimen name="bottom_navigation_fontsize">10sp</dimen>
+    <!-- flowlayout对应的textview的高度 -->
+    <dimen name="flowlayout_textview_height">35dp</dimen>
+    
+</resources>

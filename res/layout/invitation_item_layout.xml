@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector_bg"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="15dp" 
+             style="@style/list_marginLeftAndRight_style">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:adjustViewBounds="true"
+                android:background="@color/main_bg"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/default_image_icon" />
+
+            <TextView
+                android:id="@+id/invitation_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/image_view"
+                android:layout_toStartOf="@id/image_view"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/main_font_color"
+                android:textSize="15sp"
+                android:text="靠出机场慢慢赢靠出机场慢慢赢靠出机场慢慢赢" />
+
+            <TextView
+                android:id="@+id/invitation_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/invitation_title"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/image_view"
+                android:layout_toStartOf="@id/image_view"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#656565"
+                android:textSize="13sp"
+                android:text="单文件图标下载" />
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/layout_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+           style="@style/list_marginLeftAndRight_style" >
+
+            <ImageView
+                android:id="@+id/image_user"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_touxiang_xiaoerhei" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="Hi实习"
+                    android:textColor="#a5a5a5"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_name"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="30分钟前"
+                    android:textColor="#a5a5a5"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_praisenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:drawableLeft="@drawable/like"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/like"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#a5a5a5"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/text_commentnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                style="@style/list_marginLeft_style"
+                android:drawableLeft="@drawable/comment"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/comment"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="200"
+                android:textColor="#a5a5a5"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    <View android:id="@+id/view_add"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/title_bar_buttom_color"
+       style="@style/list_marginLeft_style" />
+</LinearLayout>

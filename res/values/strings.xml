@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hi实习</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 没有网络 -->
+    <string name="no_internet">你的网络不给力，数据加载失败了</string>
+    <string name="generic_server_down">服务器连接失败，程序员正在抢修</string>
+    <!-- 网络异常 -->
+    <string name="generic_error">你的网络不给力，数据加载失败了</string>
+    <string name="loading_str">加载中...</string>
+    <string name="cancel_str">取消</string>
+    <string name="confirm_str">确定</string>
+    <string name="account_number_str">账号</string>
+    <string name="password_str">密码</string>
+    <string name="account_number_hint">请输入手机号或邮箱</string>
+    <string name="password_hint">请输入登陆密码</string>
+    <string name="login_str">登录</string>
+    <string name="forget_password_str">忘记密码？</string>
+    <string name="phone_number_str">手机号</string>
+    <string name="verification_code_str">验证码</string>
+    <string name="phone_number_hint">请输入手机号码</string>
+    <string name="verification_code_hint">请输入验证码</string>
+    <string name="gain_verification_code_str">获取验证码</string>
+    <string name="register_str">注册</string>
+    <string name="new_password_str">新密码</string>
+    <string name="new_password_hint">6~18位字母+数字</string>
+    <string name="reset_password_str">重置密码</string>
+    <string name="email_str">邮箱</string>
+    <string name="email_hint">请输入邮箱账号</string>
+    <string name="test_email_str">验证邮箱</string>
+    <string name="phone_str">手机</string>
+    <string name="update_pssword_str">修改密码</string>
+    <string name="opinion_grade_str">意见和评分：</string>
+    <string name="account_password_str">账号和密码：</string>
+    <string name="opinion_feedback_str">意见反馈</string>
+    <string name="encourage_str">去评分</string>
+    <string name="out_login_str">退出登录</string>
+    <string name="contact_information_str">联系方式（手机/邮箱）</string>
+    <string name="opinion_content_hint">在这里写下你的吐槽和意见吧...</string>
+    <string name="commit_feedback_str">提交反馈</string>
+    <string name="update_verification_code_hint">请输入验证码</string>
+    <string name="update_password_hint">请输入6-20位字符新密码</string>
+    <string name="test_phone_hint">绑定手机后将及时收到HR反馈投递的消息</string>
+    <string name="test_str">验证</string>
+    <string name="test_email_hint">验证邮箱后你可以及时收到HR的反馈邮件</string>
+    <string name="test_email_warn_hint">请输入常用邮箱</string>
+    <string name="head_str">头像</string>
+    <string name="name_str">姓名</string>
+    <string name="sex_str">性别</string>
+    <string name="date_of_birth_str">出生日期</string>
+    <string name="select_graduate_year_str">请选择毕业年份</string>
+    <string name="identity_card_str">身份证</string>
+    <string name="politics_status_str">政治面貌</string>
+    <string name="present_address_str">现居地</string>
+    <string name="optional_fields">选填</string>
+    <string name="hint_internship_time">请选择可实习时间</string>
+    <string name="name_hint">请填写姓名</string>
+    <string name="sex_hint">请选择性别</string>
+    <string name="date_of_birth_hint">请选择出生日期</string>
+    <string name="present_address_hint">请选择现居地</string>
+    <string name="next_str">下一步</string>
+    <string name="school_name_str">就读学校</string>
+    <string name="school_name_hint">请填写就读学校</string>
+    <string name="major_type_str">专业分类</string>
+    <string name="major_type_hint">请选择专业分类</string>
+    <string name="major_name_str">专业名称</string>
+    <string name="major_name_hint">请填写专业名称</string>
+    <string name="highest_education_str">最高学历</string>
+    <string name="highest_education_hint">请选择最高学历</string>
+    <string name="contact_number_str">联系电话</string>
+    <string name="contact_number_hint">请填写联系电话</string>
+    <string name="contact_email_str">联系邮箱</string>
+    <string name="contact_email_hint">请填写联系邮箱</string>
+    <string name="percent_str">%</string>
+    <string name="resume_progress_str">简历完整度</string>
+    <string name="preview_resume_str">预览简历</string>
+    <string name="edit_mine_resume_str">编辑我的简历</string>
+    <string name="resume_status_str">简历动态</string>
+    <string name="expect_intern_area_str">期望实习地</string>
+    <string name="select_expect_intern_area_hint">请选择期望实习地</string>
+    <string name="expect_intern_area_hint">最多可选五项</string>
+    <string name="everyweek_day_str">每周可实习天数:</string>
+    <string name="everyweek_day_hint">请选择天数</string>
+    <string name="expect_daily_wage_str">期望日薪:</string>
+    <string name="expect_daily_wage_hint">请选择日薪范围</string>
+    <string name="expect_intern_position_str">期望实习职位:</string>
+    <string name="expect_intern_position_hint">请选择实习职位</string>
+    <string name="can_internship_stage_str">可实习阶段</string>
+    <string name="select_can_internship_stage_hint">请选择实习时间</string>
+    <string name="complete_create_str">完成创建</string>
+    <string name="preview_mine_resume_str">预览我的简历</string>
+    <string name="intership_starttime_str">实习开始时间:</string>
+    <string name="intership_endtime_str">实习结束时间:</string>
+    <string name="intership_starttime2_str">实习开始时间</string>
+    <string name="intership_endtime2_str">实习结束时间</string>
+    <string name="please_select_time_hint">请选择时间</string>
+    <string name="education_school_name_str">学校名称:</string>
+    <string name="education_school_name_hint">请填写就读学校</string>
+    <string name="education_major_name_str">就读专业:</string>
+    <string name="education_major_name_hint">请填写专业名称</string>
+    <string name="education_str">学历:</string>
+    <string name="education_hint">请选择学历</string>
+    <string name="join_school_time_str">入学时间:</string>
+    <string name="join_school_time_hint">请选择入学时间</string>
+    <string name="graduate_time_str">毕业时间:</string>
+    <string name="graduate_time_hint">请选择毕业时间</string>
+    <string name="save_str">保存</string>
+    <string name="delete_str">删除</string>
+    <string name="intership_expericence_str">实习经历:</string>
+    <string name="intership_expericence_hint">用心填写实习经历，可以有效增加面试机会哦！友情提示：1.实习期间的主要工作？2.获得了哪些奖励或成绩？3.锻炼了哪些职场技能？4.提升了哪些软性素养？等</string>
+    <string name="company_name_str">企业名称：</string>
+    <string name="company_name_hint">请填写企业名称</string>
+    <string name="job_title_str">岗位名称：</string>
+    <string name="job_title_hint">请填写岗位名称</string>
+    <string name="join_intership_time_hint">请选择实习开始时间</string>
+    <string name="end_intership_time_hint">请选择实习结束时间</string>
+    <string name="join_intership_time_str">开始时间:</string>
+    <string name="end_intership_time_str">结束时间:</string>
+    <string name="join_activity_time_str">参加活动时间:</string>
+    <string name="join_activity_time_hint">请选择参加活动时间</string>
+    <string name="join_activity_content_str">活动内容</string>
+    <string name="join_activity_content_hint">请输入具体的活动内容，例如：世博会志愿者。</string>
+    <string name="get_time_str">获得时间:</string>
+    <string name="get_time_hint">请选择获得证书时间</string>
+    <string name="certificate_type_str">证书分类:</string>
+    <string name="certificate_type_hint">请选择证书分类</string>
+    <string name="certificate_name_str">证书名称:</string>
+    <string name="certificate_name_hint">请选择证书名称</string>
+    <string name="certificate_state_str">证书状态:</string>
+    <string name="certificate_state_hint">请选择当前状态</string>
+    <!-- 添加校内职务相关 -->
+    <string name="school_job_title_str">职务名称</string>
+    <string name="school_job_title_hint">请填写职务名称</string>
+    <string name="school_start_time_str">开始时间</string>
+    <string name="school_start_time_hint">请选择开始时间</string>
+    <string name="school_end_time_str">结束时间</string>
+    <string name="school_end_time_hint">请选择结束时间</string>
+    <string name="school_job_experience_str">职务经历</string>
+    <string name="school_job_experience_hint">用心填写职务经历，更丰富地展示自己！友情提示：1.任职期间的主要事迹？例如举办晚会、策划比赛、参加辩论赛、拉赞助、写新闻等。2.获得了哪些奖励或成绩？3.锻炼了哪些职场技能？4.提升了哪些软性素养？</string>
+	<!-- 荣誉 -->
+	<string name="honor_get_time_str">获奖时间</string>
+	<string name="honor_get_time_hint">请选择获奖时间</string>
+	<string name="honor_name_str">奖项名称</string>
+	<string name="honor_name_hint">请输入奖项名称，例如：管理会计案例分析大赛校级二等奖等</string>
+	<!-- HR -->
+	<string name="dear_hr_hint">用心写下想对HR说的话</string>
+	<string name="dear_hr_hint2">写下想对HR说的话</string>
+	<string name="dear_hr_str">对HR说</string>
+	<!-- 首页底部导航 -->
+	<string name="home_page_str">首页</string>
+	<string name="position_str">职位</string>
+	<string name="discover_str">发现</string>
+	<string name="mine_str">我的</string>
+	<!-- 首页我的未登陆情况下展示 -->
+	<string name="mine_login_or_register_str">登录/注册</string>
+	<string name="mine_login_or_register_hint">登录后可体验完整功能额</string>
+	
+	<string name="mine_collet_str">我的收藏</string>
+	<string name="HR_source_str">人才库</string>
+	<string name="mine_browsing_history_str">浏览记录</string>
+	<string name="mine_setting_str">设置</string>
+	<string name="mine_hunter_str">Hi猎头</string>
+
+	<string name="position_filter_type_str">职位类别</string>
+	<string name="position_filter_education_str">学历</string>
+	<string name="position_filter_grade_str">毕业年份</string>
+	<string name="position_filter_searchframe_hint">搜索职位、企业名称</string>
+	<string name="enter_talentbank_str">马上加入</string>
+	
+	<!-- 分享 -->
+	<string name="weixin_str">微信</string>
+	<string name="friend_circle_str">朋友圈</string>
+	<string name="tencend_str">QQ</string>
+	<string name="sina_weibo_str">微博</string>
+	<string name="copy_link_str">复制链接</string>
+	<string name="share_str">分享到</string>
+	
+	 <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    
+	 <string name="edit_resume_str">编辑我的简历</string>
+	 <string name="invite_str">邀请我的小伙伴</string>
+	 <string name="number">123</string>
+	  <string name="collect_tab_position">收藏职位</string>
+	 <string name="collect_tab_invitation">收藏帖子</string>
+	 <string name="all_str">全部</string>
+	 <string name="talent_preview_invite_desc_str">（转发获得好友支持）</string>
+	 
+</resources>

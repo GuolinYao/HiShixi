@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main_bg_color"
+              android:orientation="vertical">
+    <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@drawable/title_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_back"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/icon_back" />
+        </FrameLayout>
+     <TextView
+            android:id="@+id/tv_title_bar_titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxWidth="150dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="@color/title_bar_font_color"
+            android:textSize="18sp" />
+        android:textColor="@color/title_bar_font_other_color"
+
+
+
+            <FrameLayout
+                android:id="@+id/fl_title_bar_collect"
+                android:layout_width="@dimen/title_bar_height"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:onClick="onClick"
+                >
+
+                <ImageView
+                    android:id="@+id/tv_title_bar_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_title_bar_share"
+                android:layout_width="@dimen/title_bar_height"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/tv_title_bar_otherbtn"
+                android:layout_toLeftOf="@id/fl_title_bar_collect"
+                android:layout_toRightOf="@id/tv_title_bar_otherbtn"
+                android:layout_toStartOf="@id/fl_title_bar_collect"
+                android:onClick="onClick"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/tv_title_bar_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/share_position" />
+            </FrameLayout>
+
+    </RelativeLayout> -->
+    <com.shixi.gaodun.view.ObservableScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- 基本信息 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_position_basicinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_frame_bg">
+
+                <TextView
+                    android:id="@+id/tv_positionname"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ll_basicinfo_layout"
+                    style="@style/list_marginLeftAndRight_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_positionname"
+                    android:background="@drawable/tom_bottom_frame_bg"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_daily_wage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:drawablePadding="8dp"
+                        android:drawableTop="@drawable/salary"
+                        android:gravity="center"
+                        android:textColor="#ff9600"
+                        android:textSize="12sp"/>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:background="@color/title_bar_buttom_color"/>
+
+                    <TextView
+                        android:id="@+id/tv_work_days"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:drawablePadding="8dp"
+                        android:drawableTop="@drawable/time"
+                        android:gravity="center"
+                        android:textColor="@color/nomal_btn_color"
+                        android:textSize="12sp"/>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:background="@color/title_bar_buttom_color"/>
+
+                    <TextView
+                        android:id="@+id/tv_education"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:drawablePadding="8dp"
+                        android:drawableTop="@drawable/edu"
+                        android:gravity="center"
+                        android:textColor="@color/nomal_btn_color"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_major_request_title"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/ll_basicinfo_layout"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text="专业要求："
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_major_request_value"
+                    style="@style/list_marginLeftAndRight_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_basicinfo_layout"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toEndOf="@id/tv_major_request_title"
+                    android:layout_toRightOf="@id/tv_major_request_title"
+                    android:gravity="center"
+                    android:minHeight="20dp"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_gradetime_title"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/tv_major_request_title"
+                    android:gravity="center"
+                    android:text="毕业时间："
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_gradetime_value"
+                    style="@style/list_marginLeftAndRight_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_major_request_value"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_gradetime_title"
+                    android:layout_toRightOf="@id/tv_gradetime_title"
+                    android:gravity="center"
+                    android:minHeight="20dp"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="13sp"/>
+
+                <View
+                    android:id="@+id/view_line"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@id/tv_gradetime_value"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/divider_color"/>
+
+                <TextView
+                    android:id="@+id/tv_work_address_title"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_below="@id/view_line"
+                    android:gravity="center"
+                    android:text="工作地点："
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tv_work_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view_line"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_work_address_title"
+                    android:layout_toRightOf="@id/tv_work_address_title"
+                    android:gravity="center_vertical"
+                    android:minHeight="37dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="13sp"
+                    />
+
+                <View
+                    android:id="@+id/view_line2"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@id/tv_work_address_title"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/divider_color"
+                    android:visibility="gone"/>
+                <!--猎头标签-->
+                <TextView
+                    android:id="@+id/tv_hunter_tags_title"
+                    style="@style/list_marginLeft_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_below="@id/view_line2"
+                    android:gravity="center"
+                    android:text="猎头标签："
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp"
+                    android:visibility="gone"/>
+
+                <com.shixi.gaodun.view.FlowLayout
+                    android:id="@+id/fl_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view_line2"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_hunter_tags_title"
+                    android:layout_toRightOf="@id/tv_hunter_tags_title"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:visibility="gone"
+                    app:horizontal_spacing="5dp"
+                    app:vertical_spacing="5dp">
+
+                </com.shixi.gaodun.view.FlowLayout>
+            </RelativeLayout>
+
+            <!-- 企业信息 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_enterpriseinfo_layout"
+                style="@style/list_padding_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_position_basicinfo"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:paddingBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_commpany_image"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/image_bg"
+                    android:contentDescription="@string/app_name"
+                    android:padding="1px"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_image_icon"/>
+
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/more_info_grey"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_enterprise_basicinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@id/iv_commpany_image"
+                    android:layout_toLeftOf="@id/iv_more"
+                    android:layout_toRightOf="@id/iv_commpany_image"
+                    android:layout_toStartOf="@id/iv_more"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_commpany_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/title_bar_font_color"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_address_scale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/hint_font_color"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_industry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hint_font_color"
+                        android:textSize="13sp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 岗位职责 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_enterpriseinfo_layout"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tom_bottom_frame_bg">
+
+                <TextView
+                    android:id="@+id/tv_position_des"
+                    style="@style/list_marginLeftAndRight_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="10dp"
+                    android:text="职位描述"
+                    android:textColor="@color/title_bar_font_color"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_position_value"
+                    style="@style/list_marginLeftAndRight_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_position_des"
+                    android:lineSpacingExtra="5dp"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="13dp"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.shixi.gaodun.view.ObservableScrollView>
+
+    <Button
+        android:id="@+id/btn_delivery_resume"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/selected_font_color"
+        android:textColor="@color/main_bg"
+        android:textSize="16sp"/>
+
+</LinearLayout>

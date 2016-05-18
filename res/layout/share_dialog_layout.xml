@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="21dp"
+        android:text="@string/share_str"
+        android:textColor="#656565"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_share_weixin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="6dp"
+                android:drawableTop="@drawable/weixin"
+                android:gravity="center"
+                android:text="@string/weixin_str"
+                android:textColor="@color/form_value_color"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/mask1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccffffff"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_share_friend_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="6dp"
+                android:drawableTop="@drawable/pyq"
+                android:gravity="center"
+                android:text="@string/friend_circle_str"
+                android:textColor="@color/form_value_color"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/mask2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccffffff"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_share_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="6dp"
+                android:drawableTop="@drawable/qq"
+                android:gravity="center"
+                android:text="@string/tencend_str"
+                android:textColor="@color/form_value_color"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/mask3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccffffff"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_share_sina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="6dp"
+                android:drawableTop="@drawable/weibo"
+                android:gravity="center"
+                android:text="@string/sina_weibo_str"
+                android:textColor="@color/form_value_color"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/mask4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccffffff"
+                android:visibility="gone" />
+        </FrameLayout>
+
+       
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_select_cancel"
+        style="@style/list_marginLeftAndRight_style"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="21dp"
+        android:background="#eaeaea"
+        android:padding="1dp"
+        android:text="@string/cancel_str"
+        android:textColor="@color/form_value_color"
+        android:textSize="16sp" />
+
+</LinearLayout>

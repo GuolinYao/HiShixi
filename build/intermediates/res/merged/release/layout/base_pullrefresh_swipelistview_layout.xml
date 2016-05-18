@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipe_layout_groupview"
+    android:orientation="vertical"
+    android:background="@color/main_bg" >
+      <com.shixi.gaodun.libpull.PullToRefreshSwipeListView
+        android:id="@+id/base_pullrefresh_swipelistview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#80ffffff"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:listSelector="#80ffffff"
+        android:scrollingCache="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:divider="@null"
+        android:dividerPadding="0dp"/>
+
+      <FrameLayout android:id="@+id/swipe_layout_nonedata"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:visibility="gone"/>
+</LinearLayout>

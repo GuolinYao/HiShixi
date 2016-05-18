@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_listview_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.shixi.gaodun.view.ObservableScrollView
+        android:id="@+id/refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_content_bg_color"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="false" 
+        android:overScrollMode="never"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_back"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/fanhuibai" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_title_name"
+            android:layout_width="200dp"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/title_bar_font_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_edit"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/edit_str"
+            android:textColor="@color/main_bg" />
+    </RelativeLayout>
+
+    <!-- tab部分 -->
+
+    <RelativeLayout
+        android:id="@+id/layout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/layout_title"
+        android:background="@color/main_bg"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:baselineAligned="false"
+            android:showDividers="middle" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/text_tab_invitation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edit_tab_selector"
+                    android:gravity="center"
+                    android:text="@string/my_invitation_str"
+                    android:textColor="@color/edit_tab_font_color" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/text_tab_reply"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edit_tab_selector"
+                    android:gravity="center"
+                    android:text="@string/my_reply_str"
+                    android:textColor="@color/edit_tab_font_color" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </RelativeLayout>
+
+</RelativeLayout>

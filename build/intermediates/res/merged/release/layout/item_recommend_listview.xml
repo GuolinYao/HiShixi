@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_content_bg_color" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5.5dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="5.5dp"
+        android:background="@drawable/image_bg"
+        android:orientation="vertical" >
+
+        <!-- 企业 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginTop="12.5dp" >
+
+            <ImageView
+                android:id="@+id/iv_company_logo"
+                android:layout_width="63dp"
+                android:layout_height="61.5dp"
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginStart="12.5dp"
+                android:background="@drawable/image_bg"
+                android:contentDescription="@string/app_name"
+                android:padding="1px" />
+
+            <TextView
+                android:id="@+id/tv_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/iv_company_logo"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@id/iv_company_logo"
+                android:layout_toRightOf="@id/iv_company_logo"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#cd000000"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_company_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tv_company_name"
+                android:layout_alignStart="@id/tv_company_name"
+                android:layout_below="@id/tv_company_name"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_company_industry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxEms="8"
+                    android:singleLine="true"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_company_scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_company_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/ll_company_info"
+                android:layout_alignStart="@id/ll_company_info"
+                android:layout_below="@id/ll_company_info"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5.5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#cd505050"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <!-- 分割线 -->
+
+        <View
+            android:id="@+id/view_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="12.5dp"
+            android:layout_marginRight="12.5dp"
+            android:layout_marginStart="12.5dp"
+            android:background="@drawable/bottom_line_bg"
+            android:visibility="visible" />
+        <!-- 职业 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_jobs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginLeft="12.5dp"
+            android:layout_marginStart="12.5dp"
+            android:layout_marginTop="12.5dp"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/ll_jobs_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_job_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:textColor="#00acf0"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_job_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textColor="#00acf0"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_jobs_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_jobs_line1"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_job_salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_job_edu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_job_days_perweek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_job_canstay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#cd000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <!-- 点击进入职位详情 -->
+
+            <ImageView
+                android:id="@+id/iv_job_enter_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="14.5dp"
+                android:layout_marginRight="14.5dp"
+                android:layout_marginTop="11.5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrrw_enter" />
+        </RelativeLayout>
+
+        <!-- 分割线 -->
+
+        <View
+            android:id="@+id/view_line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="12.5dp"
+            android:layout_marginLeft="12.5dp"
+            android:layout_marginRight="12.5dp"
+            android:layout_marginStart="12.5dp"
+            android:background="@drawable/bottom_line_bg"
+            android:visibility="gone" />
+
+        <!-- 扩展 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginLeft="12.5dp"
+            android:layout_marginRight="12.5dp"
+            android:layout_marginTop="12.5dp"
+            android:gravity="center"
+            android:horizontalSpacing="20dp"
+            android:visibility="visible" >
+
+            <!-- 第一行星星 -->
+
+            <LinearLayout
+                android:id="@+id/ll_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <!-- 第一排星星 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_expend_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dip"
+                        android:gravity="center"
+                        android:textColor="#cd000000"
+                        android:textSize="12.5sp" >
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rt_rating1"
+                        style="@style/articlelist_item_ratingbar_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1.5dp"
+                        android:isIndicator="true"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+                <!-- 第二排星星 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_expend_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dip"
+                        android:gravity="center"
+                        android:textColor="#cd000000"
+                        android:textSize="12.5sp" >
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rt_rating2"
+                        style="@style/articlelist_item_ratingbar_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1.5dp"
+                        android:isIndicator="true"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 第二行星星 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_line1"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <!-- 第一排星星 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_expend_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_name3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dip"
+                        android:gravity="center"
+                        android:textColor="#cd000000"
+                        android:textSize="12.5sp" >
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rt_rating3"
+                        style="@style/articlelist_item_ratingbar_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1.5dp"
+                        android:isIndicator="true"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+                <!-- 第二排星星 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_expend_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_name4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dip"
+                        android:gravity="center"
+                        android:textColor="#cd000000"
+                        android:textSize="12.5sp" >
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/rt_rating4"
+                        style="@style/articlelist_item_ratingbar_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1.5dp"
+                        android:isIndicator="true"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

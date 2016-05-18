@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_basicinfo_str">基本信息</string>
+    <string name="preview_name_str">姓名:</string>
+    <string name="preview_school_str">就读学校:</string>
+    <string name="preview_major_type_str">专业分类:</string>
+    <string name="preview_birth_str">出生日期:</string>
+    <string name="preview_address_str">现居地:</string>
+    <string name="preview_contactmobile_str">联系电话:</string>
+    <string name="preview_major_name_str">专业名称:</string>
+    <string name="preview_contactemail_str">联系邮箱:</string>
+    <string name="preview_highest_edu_str">最高学历:</string>
+    <string name="preview_graduate_year_str">毕业年份:</string>
+    <string name="preview_dear_hr_str">对HR说:</string>
+    <string name="preview_indentitycard_str">身份证号:</string>
+    <string name="preview_politicsstatus_str">政治面貌:</string>
+    <string name="layout_internship_intention_str">实习意向</string>
+    <!-- 实习意向 -->
+     <string name="expect_address_str">期望实习地:</string>
+    <string name="expect_day_str">每周可实习天数:</string>
+    <string name="expect_category_str">期望岗位类型:</string>
+    <string name="expect_salary_str">期望日薪:</string>
+    <string name="expect_stage_str">可实习阶段:</string>
+    <!-- 教育经历 -->
+     <string name="education_experience_str">教育背景</string>
+     <!-- 实习经历 -->
+      <string name="internship_experience_str">实习经历</string>
+      <!-- 校园经历 -->
+       <string name="school_experience_str">校园经历</string>
+       <!-- 荣誉和证书 -->
+       <string name="certificateofhonor_str">证书和荣誉</string>
+          <!--HR -->
+       <string name="dearhr_str">Dear HR</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_system_message"
+    android:paddingTop="10dp"
+   
+    >
+    <ImageView android:id="@+id/image_system_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         style="@style/list_marginLeft_style"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView android:id="@+id/text_system_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="13sp"
+        android:textColor="@color/main_font_color"
+        android:layout_toRightOf="@id/image_system_icon"
+        android:layout_toEndOf="@id/image_system_icon" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        style="@style/list_marginRight_style"
+        />
+    <TextView android:id="@+id/text_system_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="12sp"
+        android:textColor="@color/hint_font_color"
+        android:layout_toRightOf="@id/image_system_icon"
+        android:layout_toEndOf="@id/image_system_icon" 
+        android:layout_below="@id/text_system_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+         android:paddingBottom="3dp"
+         style="@style/list_marginRight_style"
+        />
+    <View android:layout_width="fill_parent"
+        android:layout_height="1px" 
+        android:background="@color/divider_color"
+        style="@style/list_marginLeft_style"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

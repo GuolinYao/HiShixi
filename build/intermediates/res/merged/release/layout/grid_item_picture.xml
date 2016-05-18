@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+    <!-- 不可点击区域的浮层 -->
+    <!-- android:background="@drawable/pick_checkbox_bg"  android:background="@drawable/selected_image_bg" -->
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_margin="4dp"
+        android:background="@drawable/pick_checkbox_bg"
+        android:textColor="@color/main_bg"
+        android:textSize="12sp" />
+
+    <!-- 不可点击区域的浮层 -->
+
+</FrameLayout>

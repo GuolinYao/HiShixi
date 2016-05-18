@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical" >
+
+    <!-- 帖子详情 -->
+
+    <include
+        android:id="@+id/layout_invitation_detail"
+        layout="@layout/invitation_detail_top_layout" />
+    <!-- 跟帖列表 ,帖子里面有相互评价 -->
+
+    <com.shixi.gaodun.view.MyListView
+        android:id="@+id/listview_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:divider="@color/main_bg_color"
+        android:dividerHeight="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f2f1f6"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/rl_school_name_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/school_name_str" />
+
+                <TextView
+                    android:id="@+id/tv_school_name"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/school_name_hint" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/rl_major_type_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/major_type_str" />
+
+                <TextView
+                    android:id="@+id/tv_major_type"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/major_type_hint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_major_name_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/major_name_str" />
+
+                <TextView
+                    android:id="@+id/tv_major_name"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/major_name_hint" />
+            </RelativeLayout>
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/rl_highest_education_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/highest_education_str" />
+
+                <TextView
+                    android:id="@+id/tv_highest_education"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/highest_education_hint" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/rl_contact_email_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/contact_email_str" />
+
+                <TextView
+                    android:id="@+id/tv_contact_email"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/contact_email_hint" />
+            </RelativeLayout>
+            <!-- 期望实习地 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_expect_intern_area_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_expect_intern_area_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/expect_intern_area_str" />
+
+                <TextView
+                    android:id="@+id/tv_expect_intern_area_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_expect_intern_area_key"
+                    android:layout_toRightOf="@id/tv_expect_intern_area_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/expect_intern_area_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+            <!-- 每周实习天数 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_everyweek_canexpectday_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@id/rl_expect_intern_area_layout"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_everyweek_canexpectday_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/everyweek_day_str" />
+
+                <TextView
+                    android:id="@+id/tv_everyweek_canexpectday_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_everyweek_canexpectday_key"
+                    android:layout_toRightOf="@id/tv_everyweek_canexpectday_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/everyweek_day_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_expect_daily_wage_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@id/rl_everyweek_canexpectday_layout"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_expect_daily_wage_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/expect_daily_wage_str" />
+
+                <TextView
+                    android:id="@+id/tv_expect_daily_wage_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_expect_daily_wage_key"
+                    android:layout_toRightOf="@id/tv_expect_daily_wage_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/expect_daily_wage_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_expect_internship_position_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@id/rl_expect_daily_wage_layout"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_expect_internship_position_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/expect_intern_position_str" />
+
+                <TextView
+                    android:id="@+id/tv_expect_internship_position_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_expect_internship_position_key"
+                    android:layout_toRightOf="@id/tv_expect_internship_position_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/expect_intern_position_hint"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_can_internship_stage_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:layout_below="@+id/rl_expect_internship_position_layout"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_can_internship_stage_key"
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/can_internship_stage_str" />
+
+                <TextView
+                    android:id="@+id/tv_can_internship_stage_value"
+                    style="@style/basic_info_value_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_can_internship_stage_key"
+                    android:layout_toRightOf="@id/tv_can_internship_stage_key"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:hint="@string/hint_internship_time"
+                    android:singleLine="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:orientation="vertical"
+            android:padding="1dp" >
+        -->
+
+
+        <!--
+            <RelativeLayout
+                android:id="@+id/rl_contact_number_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/contact_number_str" />
+
+                <TextView
+                    android:id="@+id/tv_contact_number"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/contact_number_hint" />
+            </RelativeLayout>
+        -->
+
+
+        <!-- </LinearLayout> -->
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClick"
+            android:text="@string/complete_create_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</ScrollView>

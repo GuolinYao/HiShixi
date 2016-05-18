@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_select_indexone"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView android:id="@+id/tv_select_indexone"
+                style="@style/basic_info_titile_style"
+                android:text="@string/contact_number_str" />
+
+           <ImageView android:id="@+id/iv_select_indexone"
+               android:contentDescription="@string/app_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:background="@drawable/select"
+               android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_select_indextwo"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView android:id="@+id/tv_select_indextwo"
+                style="@style/basic_info_titile_style"
+                android:text="@string/contact_email_str" />
+
+           <ImageView android:id="@+id/iv_select_indextwo"
+               android:contentDescription="@string/app_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:visibility="gone"
+               android:background="@drawable/select"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

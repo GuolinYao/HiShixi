@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="#00ABF0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_back"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sousuo" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_title_bar_titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Hi实习"
+            android:textColor="@color/main_bg"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/fl_title_bar_collect"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/tv_title_bar_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/youxiang" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <com.shixi.gaodun.libpull.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg_color"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        ptr:mode="pullDownFromTop" />
+    <!-- ptr:ptrAnimationStyle="flip" 
+    -->
+
+
+    <!--
+             <com.shixi.gaodun.view.ObservableScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrollview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg_color"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+         />
+    -->
+
+    <FrameLayout
+        android:id="@+id/layout_error"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

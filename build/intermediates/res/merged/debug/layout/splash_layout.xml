@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/splash"
+    android:orientation="vertical" >
+<!--    android:background="@drawable/splash"-->
+    <com.shixi.gaodun.view.GifView
+        android:id="@+id/gifview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:enabled="true" >
+    </com.shixi.gaodun.view.GifView>
+
+</LinearLayout>

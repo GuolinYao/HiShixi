@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f6" >
+
+    <RelativeLayout
+            android:id="@+id/rl_join_activity_time_layout"
+            style="@style/nomal_padding_left_right"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                android:id="@+id/tv_join_activity_time_key"
+                style="@style/basic_info_titile_style"
+                android:text="@string/join_activity_time_str" />
+
+            <TextView
+                android:id="@+id/tv_end_intership_time_value"
+                style="@style/basic_info_value_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_join_activity_time_key"
+                android:layout_toRightOf="@id/tv_join_activity_time_key"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:hint="@string/end_intership_time_hint"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_activity_content_key"
+        style="@style/nomal_margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rl_join_activity_time_layout"
+        android:gravity="center_vertical"
+        android:text="@string/join_activity_content_str"
+        android:textColor="#656565"
+        android:textSize="@dimen/form_textsize" />
+
+    <EditText
+        android:id="@+id/et_activity_content_content"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/tv_activity_content_key"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:gravity="top|start"
+        android:hint="@string/join_activity_content_hint"
+        android:padding="17dp"
+        android:maxLength="32"
+        android:textSize="@dimen/form_textsize" />
+
+    <TextView android:id="@+id/tv_activity_content_length"
+        android:layout_below="@id/et_activity_content_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical"
+        style="@style/nomal_margin_right"
+        android:textColor="#BCBCBC"
+        />
+    <Button
+        android:id="@+id/btn_addorupdate"
+        style="@style/nomal_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/tv_activity_content_length"
+        android:background="@drawable/btn_bg"
+        android:onClick="onClick"
+        android:text="@string/save_str"
+        android:textColor="@color/main_bg"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/nomal_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/btn_addorupdate"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/deletebtn_bg"
+        android:onClick="onClick"
+        android:text="@string/delete_str"
+        android:textColor="@color/main_bg"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

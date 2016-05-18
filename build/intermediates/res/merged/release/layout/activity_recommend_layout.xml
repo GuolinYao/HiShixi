@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主布局，一般有title的都基于这个 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:orientation="vertical" >
+
+    <!-- 主题容器 -->
+
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_container"
+        android:background="@color/main_content_bg_color" >
+
+        <com.shixi.gaodun.libpull.MyPullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/recommend_pullrefresh_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_content_bg_color"
+            android:cacheColorHint="#80ffffff"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="#80ffffff"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="none"
+            android:scrollingCache="false"
+            ptr:ptrMode="pullFromEnd" />
+        <!-- ptr:ptrMode="pullFromEnd"  设置只有上啦加载 -disabled 禁用下拉刷新 -->
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:onClick="back"
+            android:src="@drawable/back_arrow_button" />
+    </FrameLayout>
+
+    <!-- 错误情况下的显示，包括无网络数据和服务器出错，链接服务器失败等 -->
+
+    <FrameLayout
+        android:id="@+id/layout_mainerror_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_container"
+        android:background="@color/main_bg"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fl_error_bg"
+        android:layout_width="match_parent"
+        android:background="@color/main_bg"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:drawablePadding="23dp"
+            android:drawableTop="@drawable/noresults"
+            android:text="你来晚了，该活动已下线"
+            android:textColor="#656565"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+</RelativeLayout>

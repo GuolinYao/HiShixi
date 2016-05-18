@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg_color"
+    android:overScrollMode="never"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/layout_basic_info"
+            style="@style/list_marginLeftAndRight_style"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/priview_top_bg" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_invited_friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_invited_friends"
+                    android:layout_alignStart="@id/tv_invited_friends"
+                    android:layout_below="@id/tv_invited_friends"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/talent_preview_invite_desc_str"
+                    android:textColor="#ffffff"
+                    android:textSize="12.5sp" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/ibtn_invite_rule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:contentDescription="@string/app_name"
+                android:onClick="onClick"
+                android:paddingEnd="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/invite_rule" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/ibtn_invite_rule"
+                android:layout_toStartOf="@id/ibtn_invite_rule"
+                android:background="#008ac1" />
+        </RelativeLayout>
+        <!-- 基本信息 -->
+
+        <LinearLayout
+            android:id="@+id/layout_main"
+            style="@style/list_marginLeftAndRight_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_basic_info"
+            android:background="@drawable/frame_bg"
+            android:orientation="vertical" >
+
+            <!-- 姓名 -->
+
+            <LinearLayout
+                android:id="@+id/ll_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_name_str"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_name_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_name"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 就读学校 -->
+
+            <LinearLayout
+                android:id="@+id/ll_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_school_str"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_school_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_school"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 专业分类 -->
+
+            <LinearLayout
+                android:id="@+id/ll_major_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_major_type_str"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_major_type_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_major_type"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+
+            <!-- 联系邮箱 -->
+
+            <LinearLayout
+                android:id="@+id/ll_contactemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_contactemail_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_contactemail_value"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 联系电话 -->
+
+            <LinearLayout
+                android:id="@+id/ll_contactmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_preview_contactmobile"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_contactmobile_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_contactmobile_value"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 专业名称 -->
+
+            <LinearLayout
+                android:id="@+id/ll_major_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_major_name"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_major_name_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_major_name"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 最高学历 -->
+
+            <LinearLayout
+                android:id="@+id/ll_highest_edu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_highest_edu"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_highest_edu_str" />
+
+                <TextView
+                    android:id="@+id/tv_preview_highest_edu"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+            <!-- 毕业年份 -->
+
+            <LinearLayout
+                android:id="@+id/ll_graduate_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_graduate_year_str"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_graduate_year_str" />
+
+                <TextView
+                    android:id="@+id/tv_graduate_year"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+
+            <!-- 期望实习地点 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expect_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_address"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/expect_address_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_address_value"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+
+            <!-- 可实习阶段 -->
+
+            <LinearLayout
+                android:id="@+id/layout_expectstage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_expect_stage"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/expect_stage_str" />
+
+                <TextView
+                    android:id="@+id/text_expect_stage_value"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+
+            <!-- 对HR说 -->
+
+            <LinearLayout
+                android:id="@+id/ll_dear_hr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_dear_hr_str"
+                    style="@style/preview_title_font"
+                    android:layout_width="110dp"
+                    android:text="@string/preview_dear_hr_str" />
+
+                <TextView
+                    android:id="@+id/tv_dear_hr_type"
+                    style="@style/preview_value_font" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_invite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="27.5dp"
+                android:layout_marginRight="27.5dp"
+                android:layout_marginTop="25dp"
+                android:background="#00ABF0"
+                android:gravity="center"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:text="@string/invite_str"
+                    android:textColor="@color/main_bg"
+                    android:textSize="@dimen/btn_textsize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

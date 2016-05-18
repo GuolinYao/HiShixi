@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/list_marginLeft_style"
+    android:padding="1px">
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/more_info_grey" />
+
+    <LinearLayout
+        android:id="@+id/ll_company_basicinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@id/more"
+        android:layout_toStartOf="@id/more"
+        android:orientation="vertical"
+        android:paddingBottom="12dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_position_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/title_bar_font_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_position_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a5a5a5"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            style="@style/wrap_width_height_style"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_salary_range"
+                style="@style/wrap_width_height_style"
+                android:drawableLeft="@drawable/info"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/info"
+                android:singleLine="true"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_education"
+                style="@style/wrap_width_height_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_salary_range"
+                android:layout_toRightOf="@id/tv_salary_range"
+                android:singleLine="true"
+                android:text="本科"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_weekday"
+                style="@style/wrap_width_height_style"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/tv_education"
+                android:layout_toRightOf="@id/tv_education"
+                android:singleLine="true"
+                android:text="本科"
+                android:textColor="@color/hint_font_color"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_publish_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:text="2天"
+            android:textColor="#a5a5a5"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+<View android:layout_width="fill_parent"
+    android:layout_height="1px"
+    android:background="@color/divider_color"
+    android:layout_below="@id/item_layout"
+    style="@style/list_marginLeft_style"/>
+</RelativeLayout>

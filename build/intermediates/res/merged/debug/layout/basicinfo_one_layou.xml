@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f2f1f6"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tom_bottom_frame_bg"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <!--
+        <RelativeLayout
+            android:id="@+id/rl_head_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:onClick="onClick" >
+
+            <TextView
+                style="@style/basic_info_titile_style"
+                android:layout_centerVertical="true"
+                android:text="@string/head_str" />
+
+            <ImageView
+                android:id="@+id/iv_head_clickimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" 
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/more_info_grey" />
+
+            <ImageView
+                android:id="@+id/detail_shop_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/iv_head_clickimg"
+                android:layout_toStartOf="@id/iv_head_clickimg" 
+                android:contentDescription="@string/app_name"
+                 android:src="@drawable/morenidtouxiang" />
+        </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/rl_name_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/name_str" />
+
+                <TextView
+                    android:id="@+id/tv_basicinfo_name"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/name_hint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_sex_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/sex_str" />
+
+                <TextView
+                    android:id="@+id/tv_basicinfo_sex"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/sex_hint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_birth_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/date_of_birth_str" />
+
+                <TextView
+                    android:id="@+id/tv_basicinfo_birth"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/date_of_birth_hint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_present_address_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/present_address_str" />
+
+                <TextView
+                    android:id="@+id/tv_present_address"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/present_address_hint" />
+            </RelativeLayout>
+            <!-- 毕业年份 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_graduate_year"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/position_filter_grade_str" />
+
+                <TextView
+                    android:id="@+id/tv_graduate_year"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/select_graduate_year_str" />
+            </RelativeLayout>
+            <!-- 就读学校 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_school_name_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:background="@drawable/edit_frame_bg"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/school_name_str" />
+
+                <TextView
+                    android:id="@+id/tv_school_name"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/school_name_hint" />
+            </RelativeLayout>
+            <!-- 最高学历 -->
+            <RelativeLayout
+                android:id="@+id/rl_highest_education_layout"
+                style="@style/nomal_margin_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                android:gravity="center_vertical"
+                android:onClick="onClick" >
+
+                <TextView
+                    style="@style/basic_info_titile_style"
+                    android:text="@string/highest_education_str" />
+
+                <TextView
+                    android:id="@+id/tv_highest_education"
+                    style="@style/basic_info_value_style"
+                    android:gravity="end"
+                    android:hint="@string/highest_education_hint" />
+            </RelativeLayout>
+            <!--
+        <RelativeLayout
+            android:id="@+id/rl_identity_card_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical" 
+            android:onClick="onClick">
+
+            <TextView
+                style="@style/basic_info_titile_style"
+                android:text="@string/identity_card_str" />
+
+            <TextView
+                android:id="@+id/tv_identity_card"
+                style="@style/basic_info_value_style"
+                android:hint="@string/optional_fields" />
+        </RelativeLayout>
+            -->
+
+
+            <!-- rl_identity_card_layout -->
+            <!--
+        <RelativeLayout
+            android:id="@+id/rl_politics_status_layout"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:gravity="center_vertical" 
+            android:onClick="onClick">
+
+            <TextView
+                style="@style/basic_info_titile_style"
+                android:text="@string/politics_status_str" />
+
+            <TextView
+                android:id="@+id/tv_politics_status"
+                style="@style/basic_info_value_style"
+                android:hint="@string/optional_fields" />
+        </RelativeLayout>
+            -->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/nomal_margin_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClick"
+            android:text="@string/next_str"
+            android:textColor="@color/main_bg"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <!--
+         <com.shixi.gaodun.libpull.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/listview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg"
+        android:divider="@color/main_bg_color"
+        android:dividerHeight="15dp"
+        android:scrollbars="none"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="manualOnly" 
+        android:paddingBottom="10dp"/>
+    -->
+
+    <com.shixi.gaodun.view.PostCommentView
+        android:id="@+id/view_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <com.shixi.gaodun.libpull.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/follow_comment_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/view_bottom"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/main_bg_color"
+        android:dividerPadding="10dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        ptr:mode="pullDownFromTop" />
+
+    <FrameLayout
+        android:id="@+id/soft_keyboard_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/view_bottom"
+        android:background="@drawable/mm_trans"
+        android:visibility="gone" />
+
+</RelativeLayout>

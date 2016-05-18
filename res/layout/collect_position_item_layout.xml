@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector_bg" >
+
+    <RelativeLayout
+        style="@style/nomal_padding_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp" >
+
+        <ImageView
+            android:id="@+id/iv_commpany_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/app_name"
+            android:padding="1dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/ll_position_basicinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/iv_commpany_image"
+            android:layout_toRightOf="@id/iv_commpany_image"
+            android:orientation="vertical" >
+
+            <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_position_name"
+                    android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/title_bar_font_color"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="财务管理实习生财务管理实习生财务管理实习生财务管理实习生"/>
+
+                <TextView
+                    android:id="@+id/tv_position_address"
+                    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textColor="#a5a5a5"
+                android:textSize="12sp"
+                 android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="[上海]" />
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/wrap_width_height_style"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_salary_range"
+                    style="@style/wrap_width_height_style"
+                    android:drawableLeft="@drawable/info"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/info"
+                    android:singleLine="true"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_education"
+                    style="@style/wrap_width_height_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_salary_range"
+                    android:layout_toRightOf="@id/tv_salary_range"
+                    android:singleLine="true"
+                    android:text="本科"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_weekday"
+                    style="@style/wrap_width_height_style"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/tv_education"
+                    android:layout_toRightOf="@id/tv_education"
+                    android:singleLine="true"
+                    android:text="本科"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dashed_line" />
+
+            <TextView
+                android:id="@+id/tv_commpany_name"
+                style="@style/wrap_width_height_style"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="菲亚特汽车金融有限公司"
+                android:textColor="#656565"
+                android:textSize="14sp" />
+
+            <RelativeLayout style="@style/wrap_width_height_style" >
+
+                <TextView
+                    android:id="@+id/tv_industry_name"
+                    style="@style/wrap_width_height_style"
+                    android:drawableLeft="@drawable/info"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/info"
+                    android:singleLine="true"
+                    android:text="100-200元/天"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_commpany_number"
+                    style="@style/wrap_width_height_style"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/tv_industry_name"
+                    android:layout_toRightOf="@id/tv_industry_name"
+                    android:drawableLeft="@drawable/renshu"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/renshu"
+                    android:singleLine="true"
+                    android:text="本科"
+                    android:textColor="@color/hint_font_color"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_publish_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_commpany_image"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/ll_position_basicinfo"
+            android:layout_toStartOf="@id/ll_position_basicinfo"
+            android:gravity="center"
+            android:text="2天"
+            android:textColor="#a5a5a5"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <!-- 已下线 -->
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main_bg"
+        android:alpha="0.9"
+        android:id="@+id/layout_offline"
+        android:visibility="gone">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/offline2x"
+            android:contentDescription="@string/app_name"
+            android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true" 
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"/>
+    </RelativeLayout>
+</FrameLayout>

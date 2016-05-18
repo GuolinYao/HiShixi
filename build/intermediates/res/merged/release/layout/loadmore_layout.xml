@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ListView 底部“更多” -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:gravity="center" >
+
+    <ProgressBar
+            android:id="@+id/progress_more"
+            style="@style/myProgressStyle"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_gravity="center" />
+
+</LinearLayout>

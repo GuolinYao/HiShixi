@@ -1,0 +1,262 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Activity动画主题，向上进入，向下退出 -->
+    <style name="ActivityTheme_Light" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <!--
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        -->
+    </style>
+    <!-- Activity动画，向上进入，向下退出 -->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_down_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_up_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_down_out</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置对话框背景不变暗 -->
+    </style>
+
+    <style name="refresh_progress_style" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/refresh_progress</item>
+    </style>
+    <!-- 确定提交 对话框 -->
+    <style name="CancelTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="nomal_margin_left_right">
+        <item name="android:layout_marginLeft">@dimen/title_bar_margin</item>
+        <item name="android:layout_marginRight">@dimen/title_bar_margin</item>
+    </style>
+
+    <style name="nomal_padding_left_right">
+        <item name="android:paddingLeft">@dimen/title_bar_margin</item>
+        <item name="android:paddingRight">@dimen/title_bar_margin</item>
+    </style>
+
+    <style name="nomal_padding_left">
+        <item name="android:paddingLeft">17dp</item>
+    </style>
+
+    <style name="nomal_padding_right">
+        <item name="android:paddingRight">17dp</item>
+    </style>
+
+    <style name="nomal_margin_left">
+        <item name="android:layout_marginLeft">@dimen/title_bar_margin</item>
+        <item name="android:paddingRight">@dimen/title_bar_margin</item>
+    </style>
+
+    <style name="nomal_margin_right">
+        <item name="android:layout_marginRight">@dimen/title_bar_margin</item>
+    </style>
+
+    <style name="DataSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <!-- <item name="android:windowExitAnimation">@anim/push_down_out</item> -->
+    </style>
+
+    <style name="MMTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style>
+
+    <style name="Supernatant_Theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@drawable/mm_trans</item>
+        <item name="android:windowBackground">@drawable/mm_trans</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style>
+
+    <style name="basic_info_titile_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_font_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="basic_info_value_parent_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_form_nonomal_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="basic_info_value_style" parent="@style/basic_info_value_parent_style">
+        <item name="android:drawableRight">@drawable/more_info_grey</item>
+        <item name="android:drawablePadding">7.5dp</item>
+    </style>
+
+    <style name="basic_info_editext_single_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+        <item name="android:textColor">@color/main_font_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">23dp</item>
+    </style>
+
+
+
+    <!-- 底部导航格式 -->
+    <!-- <item name="android:includeFontPadding">false</item> -->
+    <style name="bottom_navigation_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <!-- 宽高按自身大小 -->
+    <style name="wrap_width_height_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽全屏高按自身大小 -->
+    <style name="match_width_wrap_height_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 选中了的文本的颜色 -->
+    <style name="selected_text_font_color">
+        <item name="android:textColor">@color/selected_font_color</item>
+    </style>
+    <!-- 选中了的文本的style -->
+    <style name="selected_text_font_style" parent="@style/wrap_width_height_style">
+        <item name="android:textColor">@color/selected_font_color</item>
+    </style>
+    <!-- <item name="android:textColor">@color/form_value_color</item> -->
+    <!-- 首页职位筛选 -->
+    <style name="FindPositionTableText">
+        <item name="android:textColor">@color/filter_item_textview_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableRight">@drawable/select_search</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 列表的右边距 -->
+    <style name="list_paddingleft_style">
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+    <!-- 列表的左边距 -->
+    <style name="list_marginLeft_style">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="list_marginLeftAndRight_style">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="list_padding_style">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="list_paddingRight_style">
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="list_marginRight_style">
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="myProgressStyle1" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/myprogress1</item>
+    </style>
+
+    <style name="myProgressStyle" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/myprogress</item>
+    </style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
+    <!-- 特殊的对话框 -->
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- 自定义RatingBar -->
+    <style name="articlelist_item_ratingbar_style" parent="@android:style/Widget.RatingBar">
+￼                        <item name="android:progressDrawable">@drawable/mine_ratingbar</item>
+￼￼                        <item name="android:numStars">5</item>
+￼                        <item name="android:minHeight">12.5dp</item>
+￼                        <item name="android:maxHeight">12.5dp</item>
+    </style>
+    <!-- 自定义进度条1 -->
+    <style name="progress_horizontal_1">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_1</item>
+        <!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:maxHeight">14dp</item>
+    </style>
+    <!-- 自定义进度条2 -->
+    <style name="progress_horizontal_2">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_2</item>
+        <!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">8dp</item>
+        <item name="android:maxHeight">8dp</item>
+    </style>
+
+</resources>

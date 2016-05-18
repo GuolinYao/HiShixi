@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/raw/beep.ogg",
+        "source": "/Users/guolinyao/myproject/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/raw/realm_properties",
+        "source": "/Users/guolinyao/myproject/res/raw/realm_properties"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/raw/splash.gif",
+        "source": "/Users/guolinyao/myproject/res/raw/splash.gif"
+    }
+]

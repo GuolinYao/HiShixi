@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/save_btn_font_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/color/save_btn_font_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/edit_tab_font_color.xml",
+        "source": "/Users/guolinyao/myproject/res/color/edit_tab_font_color.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/collect_title_color_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/color/collect_title_color_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/tab_text_color.xml",
+        "source": "/Users/guolinyao/myproject/res/color/tab_text_color.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/filter_item_textview_color.xml",
+        "source": "/Users/guolinyao/myproject/res/color/filter_item_textview_color.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/verification_code_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/color/verification_code_bg.xml"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/color/send_btncolor_bg.xml",
+        "source": "/Users/guolinyao/myproject/res/color/send_btncolor_bg.xml"
+    }
+]

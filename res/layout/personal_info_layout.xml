@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_content_bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_content_bg_color"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_basic_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_head_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:layout_centerVertical="true"
+                        android:text="@string/head_str" />
+
+                    <ImageView
+                        android:id="@+id/iv_head_clickimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/more_info_grey" />
+
+                    <ImageView
+                        android:id="@+id/detail_shop_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="9dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_toLeftOf="@id/iv_head_clickimg"
+                        android:layout_toStartOf="@id/iv_head_clickimg"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerCrop" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_name_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_basicinfo_name_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/name_str" />
+
+                    <TextView
+                        android:id="@+id/tv_basicinfo_name"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_basicinfo_name_title"
+                        android:layout_toRightOf="@id/tv_basicinfo_name_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/name_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_sex_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/sex_str" />
+
+                    <TextView
+                        android:id="@+id/tv_basicinfo_sex"
+                        style="@style/basic_info_value_style"
+                        android:gravity="end"
+                        android:hint="@string/sex_hint" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_birth_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/date_of_birth_str" />
+
+                    <TextView
+                        android:id="@+id/tv_basicinfo_birth"
+                        style="@style/basic_info_value_style"
+                        android:gravity="end"
+                        android:hint="@string/date_of_birth_hint" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_identity_card_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_identity_card_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/identity_card_str" />
+
+                    <TextView
+                        android:id="@+id/tv_identity_card"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_identity_card_title"
+                        android:layout_toRightOf="@id/tv_identity_card_title"
+                        android:ellipsize="end"
+                        android:gravity="end"
+                        android:hint="@string/optional_fields"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_politics_status_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/politics_status_str" />
+
+                    <TextView
+                        android:id="@+id/tv_politics_status"
+                        style="@style/basic_info_value_style"
+                        android:gravity="end"
+                        android:hint="@string/optional_fields" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_present_address_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_present_address_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/present_address_str" />
+
+                    <TextView
+                        android:id="@+id/tv_present_address"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_present_address_title"
+                        android:layout_toRightOf="@id/tv_present_address_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/optional_fields"
+                        android:singleLine="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_basic_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_basic_info"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_school_name_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_school_name_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/school_name_str" />
+
+                    <TextView
+                        android:id="@+id/tv_school_name"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_school_name_title"
+                        android:layout_toRightOf="@id/tv_school_name_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/school_name_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_major_type_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_major_type_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/major_type_str" />
+
+                    <TextView
+                        android:id="@+id/tv_major_type"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_major_type_title"
+                        android:layout_toRightOf="@id/tv_major_type_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/major_type_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_major_name_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_major_name_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/major_name_str" />
+
+                    <TextView
+                        android:id="@+id/tv_major_name"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_major_name_title"
+                        android:layout_toRightOf="@id/tv_major_name_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/major_name_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_highest_education_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        android:id="@+id/tv_highest_education_title"
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/highest_education_str" />
+
+                    <TextView
+                        android:id="@+id/tv_highest_education"
+                        style="@style/basic_info_value_style"
+                        android:layout_toEndOf="@id/tv_highest_education_title"
+                        android:layout_toRightOf="@id/tv_highest_education_title"
+                        android:ellipsize="none"
+                        android:gravity="end"
+                        android:hint="@string/highest_education_hint"
+                        android:singleLine="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_basic_school"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tom_bottom_frame_bg"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_contact_number_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:background="@drawable/edit_frame_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/contact_number_str" />
+
+                    <TextView
+                        android:id="@+id/tv_contact_number"
+                        style="@style/basic_info_value_style"
+                        android:gravity="end"
+                        android:hint="@string/contact_number_hint" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_contact_email_layout"
+                    style="@style/nomal_margin_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_bar_height"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick" >
+
+                    <TextView
+                        style="@style/basic_info_titile_style"
+                        android:text="@string/contact_email_str" />
+
+                    <TextView
+                        android:id="@+id/tv_contact_email"
+                        style="@style/basic_info_value_style"
+                        android:gravity="end"
+                        android:hint="@string/contact_email_hint" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

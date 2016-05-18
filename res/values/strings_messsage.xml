@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_system_message_str">系统消息</string>
+    <string name="message_clear_topic_str">清空话题</string>
+     <string name="message_topic_str">话题消息</string>
+       <string name="message_all_str">全部</string>
+    <string name="message_notification_interview_str">通知面试</string>
+     <string name="message_inappropriate_str">不合适</string>
+     <string name="not_verify_str">未验证</string>
+     <string name="verified_str">已验证</string>
+     <string name="valid_str">有效简历</string>
+</resources>

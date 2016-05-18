@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="0.8.0"><source path="/Users/guolinyao/myproject/build/intermediates/exploded-aar/homhomlin.lib/sldinglayout/0.8.0/assets"/></dataSet><dataSet config="main"><source path="/Users/guolinyao/myproject/assets"/><source path="/Users/guolinyao/myproject/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/guolinyao/myproject/build-types/release/assets"/></dataSet></merger>

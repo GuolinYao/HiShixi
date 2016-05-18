@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shixi.gaodun.view.MyListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/enterprise_job_list"
+  	android:overScrollMode="never" 
+  	android:scrollbars="none"
+  	android:divider="@color/transparent"
+  	android:dividerHeight="0px"
+  	android:listSelector="@color/transparent"/>
+    
+

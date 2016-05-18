@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <com.shixi.gaodun.view.TitleHeaderBar
+        android:id="@+id/content_frame_title_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height" />
+
+     <!-- 正常情况下容器 -->
+    <LinearLayout
+        android:id="@+id/content_frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_content_bg_color"
+        android:orientation="vertical" />
+	<!-- 非正常情况 -->
+	<FrameLayout android:id="@+id/layout_containstitle_error"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	     android:background="@color/main_content_bg_color"
+	     android:visibility="gone"/>
+</LinearLayout>

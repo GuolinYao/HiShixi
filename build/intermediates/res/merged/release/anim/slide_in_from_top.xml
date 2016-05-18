@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- android:fromYDelta动画起始时x坐标的位置 -->
+<!-- toYDelta:动画结束时Y坐标的位置 -->
+<!-- duration :动画持续时间 -->
+<!-- android:toXDelta="100%",表示自身的100%,也就是从View自己的位置开始。
+android:toXDelta="80%p",表示父层View的80%,是以它父层View为参照的。 -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_longAnimTime"
+    android:fromYDelta="100%p"
+    android:toYDelta="0" />

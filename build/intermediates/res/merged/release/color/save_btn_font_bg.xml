@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 点击时的背景-->  
+    <item android:state_pressed="true"  android:color="#00acf0"   
+         />     
+    <!-- 不能点击时 -->
+    <item android:state_enabled="false" android:color="#9ed3f3" />
+    <!-- 能点击时 -->
+    <item android:state_enabled="true" android:color="#00acf0"/>
+</selector>

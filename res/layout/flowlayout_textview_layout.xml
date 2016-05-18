@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/flowlayout_textview_height"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/dialog_frame_bg"
+    android:textColor="@color/form_value_color"
+    android:textSize="13sp"
+    android:gravity="center"
+   	android:id="@+id/textview_flowlayout" 
+   	>
+    
+
+</TextView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_container"
+        android:background="#f6f6f6" >
+
+        <!-- 没有网络 -->
+        <include
+            android:id="@+id/none_net_view"
+            layout="@layout/activity_base_nonet"
+            android:visibility="gone" />
+        <!-- 没有数据 -->
+        <LinearLayout
+            android:id="@+id/none_date_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

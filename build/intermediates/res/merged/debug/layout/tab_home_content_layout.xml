@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.shixi.gaodun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F5" >
+
+    <FrameLayout
+        android:id="@+id/framelayout_banner"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:background="@color/main_bg" >
+
+        <com.shixi.gaodun.view.BannerLayout
+            android:id="@+id/viewpager_banner"
+            android:layout_width="match_parent"
+            android:layout_height="113dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="3dp"
+            android:gravity="center" >
+
+            <!-- android:background="@drawable/banner_indicator_bg"  android:alpha="0.2" -->
+
+            <com.shixi.gaodun.view.CircleFlowIndicator
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@drawable/banner_indicator_bg"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                app:activeColor="#ffffff"
+                app:activeType="fill"
+                app:circleSeparation="20dp"
+                app:inactiveColor="#80ffffff"
+                app:inactiveType="fill"
+                app:radius="4dip"
+                app:snap="true" />
+            <!-- app:snap="true" 点是否跳动 -->
+            <!-- 默认圆点色app:inactiveColor="#ffffff" -->
+            <!-- 选中的圆点的色app:activeColor="#e5e5e5" -->
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.shixi.gaodun.view.MyListView
+        android:id="@+id/listview_commpany_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/framelayout_banner"
+        android:layout_marginTop="15dp"
+        android:background="@color/main_bg"
+        android:divider="@color/transparent"
+        android:dividerHeight="0px"
+        android:listSelector="@color/transparent"
+        android:paddingBottom="15dp"
+        android:scrollbars="none" />
+
+    <com.shixi.gaodun.view.MyListView
+        android:id="@+id/listview_topic_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listview_commpany_home"
+        android:layout_marginTop="15dp"
+        android:background="@color/main_bg"
+        android:divider="@color/transparent"
+        android:dividerHeight="0px"
+        android:listSelector="@color/transparent"
+        android:paddingBottom="15dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

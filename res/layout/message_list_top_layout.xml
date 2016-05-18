@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color" >
+    
+    <LinearLayout  android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+         style="@style/list_padding_style"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:orientation="horizontal">
+        <FrameLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/systeminfo"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="center"/>
+            <ImageView android:id="@+id/image_redpoint_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hongdiann"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                android:layout_gravity="end"/>
+        </FrameLayout>
+    <TextView android:id="@+id/text_system_message"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/main_font_color"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/more_info_grey"
+        android:drawableEnd="@drawable/more_info_grey"
+        android:text="@string/message_system_message_str"/>
+</LinearLayout>
+    <RelativeLayout  android:id="@+id/layout_message_title"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        style="@style/list_marginLeftAndRight_style">
+        <TextView android:id="@+id/text_message_topictitle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:textColor="#999999"
+            android:text="@string/message_topic_str"/>
+        <TextView android:id="@+id/text_message_cleartopic"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:textColor="@color/save_btn_font_bg"
+            android:drawableLeft="@drawable/message_delete"
+            android:drawableStart="@drawable/message_delete"
+            android:text="@string/message_clear_topic_str"/>
+    </RelativeLayout>
+    <com.shixi.gaodun.view.MyListView android:id="@+id/listview_message_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+         android:divider="@null"
+          android:dividerHeight="0dp" 
+          android:background="@color/main_bg"
+          android:descendantFocusability="blocksDescendants"
+          android:cacheColorHint="@color/main_bg_color"/>
+</LinearLayout>
+

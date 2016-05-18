@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/selected_font_color"
+        android:gravity="center_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_resume_collected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_collected_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="37sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6.5dp"
+                android:layout_alignBottom="@+id/tv_collected_total"
+                android:layout_toEndOf="@id/tv_collected_total"
+                android:layout_toRightOf="@+id/tv_collected_total"
+                android:text="@string/resume_unit"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/rl_resume_collected"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/rl_resume_collected"
+            android:layout_toRightOf="@id/rl_resume_collected" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_resume_collected"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/resume_sum"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <!-- 已收集简历 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_resume_collected_detail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/main_bg"
+        android:onClick="onClick"
+        android:padding="1dp" >
+
+        <FrameLayout
+            android:id="@+id/fl_resume_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" >
+
+            <ImageView
+                android:id="@+id/tv_resume_edit_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/hunt_collected" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_resume_edit"
+            style="@style/nomal_padding_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@id/fl_resume_edit"
+            android:layout_toRightOf="@id/fl_resume_edit"
+            android:background="@drawable/edit_frame_bg"
+            android:drawableEnd="@drawable/more_info_grey"
+            android:drawableRight="@drawable/more_info_grey"
+            android:gravity="center_vertical"
+            android:text="@string/resume_collected"
+            android:textColor="#1b1b1b"
+            android:textSize="17sp" />
+    </RelativeLayout>
+    <!-- 任务规划及奖励 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_mission_and_reward"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/main_bg"
+        android:onClick="onClick"
+        android:padding="1dp" >
+
+        <FrameLayout
+            android:id="@+id/fl_mission_and_reward"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" >
+
+            <ImageView
+                android:id="@+id/iv_mission_and_reward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/hunt_describe" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_mission_and_reward"
+            style="@style/nomal_padding_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@id/fl_mission_and_reward"
+            android:layout_toRightOf="@id/fl_mission_and_reward"
+            android:background="@drawable/edit_frame_bg"
+            android:drawableEnd="@drawable/more_info_grey"
+            android:drawableRight="@drawable/more_info_grey"
+            android:gravity="center_vertical"
+            android:text="@string/mission_and_reward"
+            android:textColor="#1b1b1b"
+            android:textSize="17sp" />
+    </RelativeLayout>
+    <!-- 猎头工具 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_hunter_tool"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/main_bg"
+        android:onClick="onClick"
+        android:padding="1dp" >
+
+        <FrameLayout
+            android:id="@+id/fl_hunter_tool"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" >
+
+            <ImageView
+                android:id="@+id/iv_hunter_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/hunt_tool" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_hunter_tool"
+            style="@style/nomal_padding_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@id/fl_hunter_tool"
+            android:layout_toRightOf="@id/fl_hunter_tool"
+            android:background="@color/main_bg"
+            android:drawableEnd="@drawable/more_info_grey"
+            android:drawableRight="@drawable/more_info_grey"
+            android:gravity="center_vertical"
+            android:text="@string/hunter_tool"
+            android:textColor="#1b1b1b"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:background="@color/main_bg_color" >
+    </FrameLayout>
+
+</LinearLayout>

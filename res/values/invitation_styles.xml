@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="official">
+        <item name="android:background">@drawable/official_bg</item>
+        <item name="android:textColor">@color/main_bg</item>
+    </style>
+     <style name="stick">
+        <item name="android:background">@drawable/stick_bg</item>
+        <item name="android:textColor">@color/main_bg</item>
+    </style>
+</resources>

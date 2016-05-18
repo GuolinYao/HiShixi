@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f6" >
+
+    <!-- android:background="@drawable/edit_frame_bg" -->
+
+    <com.shixi.gaodun.libpull.PullToRefreshListView
+        android:id="@+id/prlv_positionlist_pull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="#f2f1f6"
+        android:cacheColorHint="#80ffffff"
+        android:divider="#f2f1f6"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="#80ffffff"
+        android:paddingBottom="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+    <!-- 没有数据时的展示 -->
+
+    <RelativeLayout
+        android:id="@+id/list_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</FrameLayout>

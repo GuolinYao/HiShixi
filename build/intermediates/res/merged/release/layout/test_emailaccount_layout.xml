@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f6"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_updatepwd_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/test_email_hint"
+        android:textColor="#656565"
+        android:textSize="13sp" />
+
+    <com.shixi.gaodun.view.ClearEditTextView
+        android:id="@+id/cetv_testemail_account"
+        style="@style/nomal_padding_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_bg_height"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:hint="@string/test_email_warn_hint"
+        android:textColor="@color/title_bar_font_color"
+        android:textSize="15sp" />
+
+   <TextView
+        android:id="@+id/tv_testemail_account"
+        style="@style/nomal_padding_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_bg_height"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/title_bar_font_color"
+        android:textSize="15sp" 
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_testemail"
+        style="@style/nomal_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/title_bar_margin"
+        android:background="@drawable/btn_bg"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/test_str"
+        android:textColor="@color/main_bg"
+        android:textSize="17sp" />
+
+</LinearLayout>

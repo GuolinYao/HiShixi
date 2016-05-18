@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/supernatants"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#90000000"
+                android:orientation="vertical">
+    <!-- android:alpha="0.7" -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="132dp"
+        android:layout_marginTop="128dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_resume_edit"
+            style="@style/nomal_padding_left"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/main_bg">
+
+            <FrameLayout
+                android:id="@+id/fl_resume_edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/tv_resume_edit_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/myresume"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_resume_edit"
+                style="@style/nomal_padding_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/fl_resume_edit"
+                android:layout_toRightOf="@id/fl_resume_edit"
+                android:background="@drawable/edit_frame_bg"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/edit_mine_resume_str"
+                android:textColor="#1b1b1b"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_wenzi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/rl_resume_edit"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/wenzi"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/image_wenzi"
+            android:layout_toRightOf="@id/image_wenzi"
+            android:background="@drawable/xiaohei"
+            android:contentDescription="@string/app_name"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/confirmx"
+        android:contentDescription="@string/app_name"/>
+
+</RelativeLayout>

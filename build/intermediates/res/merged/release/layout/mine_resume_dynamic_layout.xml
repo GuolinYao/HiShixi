@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_content_bg_color"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/resume_tablerow"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/resume_tablerow_one"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="2.99"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/text_resume_tablerow_one"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_tab_selector"
+                android:gravity="center"
+                android:minWidth="54dp"
+                android:text="@string/message_all_str"
+                android:textColor="@color/edit_tab_font_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resume_tablerow_two"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="2.99"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/text_resume_tablerow_two"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_tab_selector"
+                android:gravity="center"
+                android:minWidth="54dp"
+                android:text="@string/message_notification_interview_str"
+                android:textColor="@color/edit_tab_font_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resume_tablerow_three"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="2.99"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/text_resume_tablerow_three"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_tab_selector"
+                android:gravity="center"
+                android:minWidth="54dp"
+                android:text="@string/message_inappropriate_str"
+                android:textColor="@color/edit_tab_font_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </TableRow>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage_resume_dynamic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:background="@color/main_content_bg_color"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+    <!-- android:background="@color/main_bg" -->
+
+</LinearLayout>

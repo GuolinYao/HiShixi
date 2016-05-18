@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 没有相关职位信息的显示 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:lineSpacingMultiplier="1.8"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/touxiang_listdefault"
+        android:text="暂时没有符合该搜索条件的职位"
+        android:layout_gravity="center_horizontal"/>
+
+    <View android:background="@drawable/dashed_line"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="1dp"/>
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="热门搜索"/>
+    
+    <com.shixi.gaodun.view.FlowLayout android:id="@+id/fl_hot_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+</LinearLayout>

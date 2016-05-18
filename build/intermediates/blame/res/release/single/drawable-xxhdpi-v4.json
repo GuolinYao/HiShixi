@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/favourite.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/favourite.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fasong.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/fasong.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/wo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/camera.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/camera.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/topic_female.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/topic_female.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/preview_white.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/preview_white.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/salary.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/salary.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/faxianlan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/faxianlan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/edu.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/edu.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/noresults.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/noresults.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_collected.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_collected.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/urgent_task.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/urgent_task.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/replyx.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/replyx.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/preview.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/preview.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/morenidtouxiang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/morenidtouxiang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/topic_male.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/topic_male.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fatiebq.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/fatiebq.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hr_guide5.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hr_guide5.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/browserecord.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/browserecord.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/shadow_qrcode.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/shadow_qrcode.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/zhiweihui.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/zhiweihui.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/keyboard.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/keyboard.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/lanxuankuang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/lanxuankuang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/title.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/title.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_logo_black.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/icon_logo_black.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/shouye.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/shouye.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunter_share.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunter_share.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/weixin.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/weixin.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/delete.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/more_info.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/more_info.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/arrow_down.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/myspace.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/myspace.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/search.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/search.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hr_guide3.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hr_guide3.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/like.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/like.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/addpics.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/addpics.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wenzi.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/wenzi.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/comment.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/comment.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/xiaorentou.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/xiaorentou.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_return.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_return.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/edit.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/edit.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/qingchu.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/qingchu.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wujiaoxing.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/wujiaoxing.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/set.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/set.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/selectlan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/selectlan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/picinfo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/picinfo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/back_arrow_button.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/back_arrow_button.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/talent.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/talent.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/enter_orange.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/enter_orange.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/offline2x.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/offline2x.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/share_position.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/share_position.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/guanbi.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/guanbi.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/touxiang_listdefault.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/touxiang_listdefault.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/invite_friend.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/invite_friend.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_show_password.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/icon_show_password.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_tool.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_tool.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/guide_1.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/guide_1.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/confirm.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/confirm.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/likered.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/likered.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/add.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_describe.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_describe.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hongdian.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hongdian.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fanhuibai.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/fanhuibai.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/likedred.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/likedred.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/xuxian.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/xuxian.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/youxianghui.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/youxianghui.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/female.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/female.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/xiaohei.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/xiaohei.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_hide_password.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/icon_hide_password.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/guide_2.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/guide_2.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/location.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/location.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/set_success.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/set_success.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/faxian.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/faxian.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hr_guide1.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hr_guide1.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/check_my_hrsource.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/check_my_hrsource.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/shouyelan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/shouyelan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/weidenglutouxiang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/weidenglutouxiang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/invite_rule_page.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/invite_rule_page.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_center.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_center.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fasonglan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/fasonglan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/male.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/male.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wolan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/wolan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/guide_3.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/guide_3.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/touxiang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/touxiang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/qq.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/qq.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/first_login.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/first_login.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/history.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/history.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/fatiepics.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/fatiepics.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pyq.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/pyq.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ham.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/ham.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/select_search.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/select_search.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hr_guide2.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hr_guide2.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/renshu.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/renshu.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/select.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/select.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/share.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/share.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/myresume.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/myresume.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_copy_link.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_copy_link.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/message_delete.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/message_delete.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/zhiwei.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/zhiwei.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/langou.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/langou.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/deletedan.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/deletedan.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/gengduo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/gengduo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hr_guide4.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hr_guide4.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/systeminfo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/systeminfo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/add2hrsource.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/add2hrsource.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/weibo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/weibo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/favouriteh.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/favouriteh.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/invite_rule.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/invite_rule.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_icon.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_icon.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/reply.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/reply.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/time.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/time.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/experience_now.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/experience_now.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/info.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/info.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/arrrw_enter.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/arrrw_enter.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/noresult.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/noresult.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/textinfo.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/textinfo.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hunt_share_link.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hunt_share_link.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/shoucang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/shoucang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/resumedynamics.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/resumedynamics.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/hongdiann.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/hongdiann.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/baixuankuang.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/baixuankuang.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/shezhi.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/shezhi.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/release/drawable-xxhdpi-v4/talent_black.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-xxhdpi/talent_black.png"
+    }
+]

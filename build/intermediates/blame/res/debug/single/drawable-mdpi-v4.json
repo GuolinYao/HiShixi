@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/drawable-mdpi-v4/room_unselect.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-mdpi/room_unselect.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/drawable-mdpi-v4/room_select.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-mdpi/room_select.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/drawable-mdpi-v4/navbar.9.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-mdpi/navbar.9.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/guolinyao/myproject/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/guolinyao/myproject/build/intermediates/res/merged/debug/drawable-mdpi-v4/room_rating_bar.xml",
+        "source": "/Users/guolinyao/myproject/res/drawable-mdpi/room_rating_bar.xml"
+    }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主布局，一般有title的都基于这个 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_bg" >
+
+    <include
+        android:id="@+id/title_bar_container"
+        layout="@layout/activity_base_title" />
+    
+    <!-- 主题容器 -->
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_container"
+        >
+    </FrameLayout>
+  
+  <!-- 错误情况下的显示，包括无网络数据和服务器出错，链接服务器失败等 -->
+    <FrameLayout
+        android:id="@+id/layout_mainerror_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_container"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_groupview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_content_bg_color"
+    android:orientation="vertical" >
+
+    <!-- android:background="@color/main_bg" -->
+
+    <com.shixi.gaodun.libpull.PullToRefreshListView
+        android:id="@+id/base_pullrefresh_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#80ffffff"
+        android:divider="@null"
+        android:dividerPadding="0dp"
+        android:fadingEdge="none"
+        android:listSelector="#80ffffff"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+    <FrameLayout
+        android:id="@+id/layout_nonedata"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

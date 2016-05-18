@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f6"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/tv_account_pssword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/account_password_str"
+        android:textColor="#656565"
+        android:textSize="13sp" />
+
+    <RelativeLayout android:id="@+id/rl_account_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:padding="1dp" 
+        android:layout_below="@id/tv_account_pssword">
+
+        <LinearLayout
+            android:id="@+id/ll_setting_phone"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_bg_height"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:onClick="onClickTestPhone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_str"
+                android:textColor="@color/title_bar_font_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_setting_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:singleLine="true"
+                android:textColor="#00acf0"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_email"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_bg_height"
+            android:layout_below="@id/ll_setting_phone"
+            android:background="@drawable/edit_frame_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:onClick="onClickTestEmail" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_str"
+                android:textColor="@color/title_bar_font_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_setting_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_setting_update_pwd"
+            style="@style/nomal_padding_left_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_bg_height"
+            android:layout_below="@id/ll_setting_email"
+            android:gravity="center_vertical"
+            android:textColor="@color/title_bar_font_color"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/update_pssword_str" />
+    </RelativeLayout>
+
+    <TextView android:id="@+id/tv_opinion_grade"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rl_account_basic_info"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:text="@string/opinion_grade_str"
+        android:textColor="#656565"
+        android:textSize="13sp" />
+
+    <RelativeLayout android:id="@+id/rl_opinion_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:padding="1dp" 
+        android:layout_below="@id/tv_opinion_grade"
+       >
+
+        <TextView
+            android:id="@+id/tv_setting_opinion_feedback"
+            style="@style/nomal_margin_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_bg_height"
+            android:gravity="center_vertical"
+            android:background="@drawable/edit_frame_bg"
+            android:text="@string/opinion_feedback_str"
+            android:textColor="@color/title_bar_font_color"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_setting_encourage"
+            android:layout_below="@id/tv_setting_opinion_feedback"
+            android:paddingLeft="@dimen/title_bar_margin"
+            android:paddingRight="@dimen/title_bar_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_bg_height"
+            android:gravity="center_vertical"
+            android:text="@string/encourage_str"
+            android:textColor="@color/title_bar_font_color"
+            android:textSize="15sp"  
+             android:onClick="onClickComment"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+    <Button android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rl_opinion_grade"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/tom_bottom_frame_bg"
+        android:textColor="#E04847"
+        android:textSize="17sp"
+        android:text="@string/out_login_str"
+        android:onClick="onClick"
+        />
+    <TextView android:id="@+id/tv_current_version"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="当前版本"
+        android:textColor="#656565"
+        android:textSize="13sp" />
+
+</RelativeLayout>
