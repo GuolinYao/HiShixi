@@ -1,0 +1,93 @@
+一、android工程架构。
+      关于android架构，因为手机的限制，目前我觉得也确实没什么大谈特谈的，
+      但是从开发的角度，看到整齐的代码，优美的分层,是在追求一种美。
+
+      		 1、功能模块和类型模块均可以划分，如果没有需要的话，模块的划分都可以省略。
+             2、activity和service这类组件划分，如果没有需要的话，组件的划分都可以省略。
+             3、所有的划分，如果没有需要的话，所有的划分都可以省略。
+     
+     当然其中很多细节我也没有仔细考虑。
+     
+     
+二、项目目录：
+
+1、src/  java原代码存放目录 
+
+2、gen/ 自动生成目录 
+	gen 目录中存放所有由Android开发工具自动生成的文件。目录中最重要的就是R.java文件。
+ 	这个文件由Android开发工具自动产生的。Android开发工具会自动根据你放入res目录的资源，同步更新修改R.java文件。
+ 	正因为R.java文件是由开发工具自动生成的，所以我们应避免手工修改R.java。R.java在应用中起到了字典的作用，它包含了各种资源的id，通过R.java，应用可以很方便地找到对应资源。
+ 	另外编绎器也会检查R.java列表中的资源是否被使用到，没有被使用到的资源不会编绎进软件中，这样可以减少应用在手机占用的空间。 
+
+3、res/ 资源(Resource)目录 
+	在这个目录中我们可以存放应用使用到的各种资源，如xml界面文件，图片或数据。具体请看ppt下方备注栏。 
+	
+	
+		(1)、res/drawable 专门存放png、jpg等图标文件。在代码中使用getResources().getDrawable(resourceId)获取该目录下的资源。
+		
+		(2) 、res/layout 专门存放xml界面文件，xml界面文件和HTML文件一样，主要用于显示用户操作界面。
+		
+		(3) 、res/values 专门存放应用使用到的各种类型数据。不同类型的数据存放在不同的文件中，如下：
+		
+			1）strings.xml 定义字符串和数值，在Activity中使用getResources().getString(resourceId) 或getResources().getText(resourceId)取得资源。
+		  	 它的作用和struts中的国际化资源文件一样。
+		    <?xml version="1.0" encoding="UTF-8"?>
+		    <resources>
+		      <string name="itcast">传智播客</string>
+		    </resources>
+		    
+			2）arrays.xml 定义数组。
+		    <?xml version="1.0" encoding="utf-8"?>
+		    <resources>
+		        <string-array name="colors">
+		            <item>red</item>
+		            <item>yellow</item>     
+		            <item>green</item>     
+		            <item>blue</item>   
+		        </string-array>
+		    </resources>
+		    
+			3）colors.xml 定义颜色和颜色字串数值，你可以在Activity中使用getResources().getDrawable(resourceId) 以及getResources().getColor(resourceId)取得这些资源。例子如下：
+		    <?xml version="1.0" encoding="UTF-8"?>
+		    <resources>
+		      <color name="contents_text">#ff0000</color>
+		    </resources>
+		    
+			4）dimens.xml 定义尺寸数据，在Activity中使用getResources().getDimension(resourceId) 取得这些资源
+		    <?xml version="1.0" encoding="UTF-8"?>
+		    <resources>
+		      <dimen name="key_height">50dip</dimen>
+		    </resources>
+		    
+			5）styles.xml 定义样式。
+		    <?xml version="1.0" encoding="utf-8"?>
+		    <resources>
+		        <style name="itcastText" parent="@style/Text">
+		            <item name="android:textSize">18sp</item>
+		            <item name="android:textColor">#0066FF</item>
+		        </style>
+		    </resources> 
+		    
+		(4)、res/anim/ 存放定义动画的XML文件。
+		(5)、res/xml/ 在Activity中使用getResources().getXML()读取该目录下的XML资源文件。
+		(6)、res/raw/ 该目录用于存放应用使用到的原始文件，如音效文件等。编译软件时，这些数据不会被编译，它们被直接加入到程序安装包里。          
+		   	 为了在程序中使用这些资源，你可以调用getResources().openRawResource(ID) , 参数ID形式：R.raw.somefilename。
+	
+	
+4、libs/ 支持库目录 
+	程序开发时需要的一些三方的jar包可以放在这个目录，系统会自动把里面的jar包，添加到环境变量。 
+
+5、assets资源目录 
+	Android除了提供/res目录存放资源文件外，在/assets目录也可以存放资源文件，
+	而且/assets目录下的资源文件不会在R.java自动生成ID，所以读取/assets目录下的文件必须指定文件的路径，如：file:///android_asset/xxx.3gp 
+
+6、AndroidManifest.xml 项目清单文件 
+ 	这个文件列出了应用程序所提供的功能，以后你开发好的各种组件需要在该文件中进行配置，如果应用使用到了系统内置的应用(如电话服务、互联网服务、短信服务、GPS服务等等)，你还需在该文件中声明使用权限。 
+
+7、project.properties 项目环境信息，一般是不需要修改此文件  
+
+
+
+ 
+ 
+     
